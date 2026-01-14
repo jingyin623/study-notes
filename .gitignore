@@ -1,0 +1,19 @@
+# 忽略 Python 自动生成的缓存文件夹
+__pycache__/
+*.pyc
+
+# 忽略虚拟环境（那个很大的 .venv 文件夹没必要传到 GitHub）
+.venv/
+
+# 忽略视频和字幕文件（这些文件很大，且有版权，不建议传）
+*.mp4
+*.vtt
+*.srt
+
+# 忽略你刚才遇到的 Cookie 通行证（保护隐私！）
+youtube.com_cookies.txt
+
+# 忽略临时测试文件
+test_*.py
+temp/
+IT_Glossary.md
