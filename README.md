@@ -12,3 +12,10 @@ git reset --soft HEAD~1
 
 # 第二步：如果你刚才已经 Push 到网页了，想让网页也撤回
 git push -f origin main
+
+# 正常打包exe
+pyinstaller --name "daily_planner" daily_planner.py
+
+# 文件的打包（--collect-submodules plyer 强制包含plyer的所有子模块，）
+pyinstaller --noconsole --collect-submodules plyer daily_planner.py
+
