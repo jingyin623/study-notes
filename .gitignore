@@ -17,3 +17,8 @@ youtube.com_cookies.txt
 test_*.py
 temp/
 IT_Glossary.md
+
+# 忽略打包文件夹
+dist/
+build/
+*.spec

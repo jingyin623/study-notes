@@ -1,5 +1,19 @@
 # study-notes
 
+# 虚拟环境的安装
+D:\python\Python38\python -m venv .venv
+
+# 安装包
+pip install numpy==1.24.3
+# 更新包
+pip install --upgrade 包名
+# 删除包
+pip uninstall 包1 包2 包3
+# 删除所有包（先导出包到文件，然后根据包文件删除所有包）
+pip freeze > requirements.txt
+pip uninstall -r requirements.txt -y
+
+
 
 # 1. 将本地代码强制回退到 3 个版本之前（假设你刚才推了3次）（文件会被删除的）
 git reset --hard HEAD~3
