@@ -27,7 +27,7 @@ git push -f origin main
 
 # 正常打包exe
 pyinstaller --name "daily_planner" daily_planner.py
-
+pyinstaller --noconsole --onefile --clean --name "无限循环清理专家" main.py
 # 文件的打包（--collect-submodules plyer 强制包含plyer的所有子模块，）
 pyinstaller --noconsole --collect-submodules plyer daily_planner.py
 

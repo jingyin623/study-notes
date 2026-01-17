@@ -17,4 +17,4 @@
     NotImplementedError: No usable implementation found!
 
 此错误是模块的缺失（没有更新和弹窗提示） --collect-submodules plyer 强制包含plyer的所有子模块，
-pyinstaller --noconsole --collect-submodules plyer daily_planner.py
+pyinstaller --noconsole --clean --collect-submodules plyer daily_planner.py
