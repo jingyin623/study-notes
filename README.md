@@ -1,33 +1,28 @@
-# study-notes
-
-# 虚拟环境的安装
-D:\python\Python38\python -m venv .venv
-
-# 安装包
-pip install numpy==1.24.3
-# 更新包
-pip install --upgrade 包名
-# 删除包
-pip uninstall 包1 包2 包3
-# 删除所有包（先导出包到文件，然后根据包文件删除所有包）
-pip freeze > requirements.txt
-pip uninstall -r requirements.txt -y
-
-
+# uv安装
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+# 安装指定版本
+uv python install 3.9
+# 查看已经安装的python
+uv python list
+# 初始化安装
+cd D:\Programs\German_IT_Project\fastAPI
+uv init 
+# 虚拟化
+uv venv
+# 退出虚拟环境
+deactivate
+# 安装依赖包
+uv add fastapi
+# 从项目中移除一个依赖项。
+uv remove fastapi
+# 将项目的依赖项与环境同步。
+uv sync fastapi
 
 # 1. 将本地代码强制回退到 3 个版本之前（假设你刚才推了3次）（文件会被删除的）
 git reset --hard HEAD~3
 # 第一步：把最后一次提交撤回，但保留你写的代码文件
 git reset --soft HEAD~1
 
-# 2. 强制覆盖云端（注意：这一步需要网络通畅）
 git push -f origin main
 
-
-
-# 正常打包exe
-pyinstaller --name "daily_planner" daily_planner.py
-pyinstaller --noconsole --onefile --clean --name "无限循环清理专家" main.py
-# 文件的打包（--collect-submodules plyer 强制包含plyer的所有子模块，）
-pyinstaller --noconsole --collect-submodules plyer daily_planner.py
 
