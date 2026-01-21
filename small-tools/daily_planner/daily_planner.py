@@ -1,3 +1,17 @@
+"""
+Docstring for small-tools.daily_planner.daily_planner
+纪律生活小助手 - 日程提醒工具
+功能：
+1. 实时显示当前时间
+2. 显示当前任务和下一个任务
+3. 支持自定义日程表
+4. 提供窗口拖动和最小化功能
+5. 支持自动提醒功能，弹出通知并播放提示音
+使用方法：
+1. 运行脚本后，点击右上角的齿轮按钮打开日程管理窗口
+2. 在日程管理窗口中添加、删除或修改任务
+3. 关闭管理窗口后，主窗口会根据设置的日程自动提醒
+"""
 import tkinter as tk
 from tkinter import messagebox, ttk
 from plyer import notification
@@ -6,10 +20,24 @@ import time
 import threading
 import json
 import os
+import sys  # 必须导入 sys
 import winsound
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# --- 修改路径获取逻辑 ---
+def get_resource_path(relative_path):
+    """ 获取程序运行时的实际目录，兼容脚本运行和 PyInstaller 打包 """
+    if getattr(sys, 'frozen', False):
+        # 如果是打包后的 exe，返回 .exe 所在的文件夹路径
+        # 注意：这里用 sys.executable 而不是 sys._MEIPASS
+        # 因为我们希望 JSON 配置文件保存在用户能看到的 .exe 旁边，而不是临时文件夹里
+        return os.path.dirname(sys.executable)
+    else:
+        # 如果是普通脚本运行
+        return os.path.dirname(os.path.abspath(__file__))
+
+BASE_DIR = get_resource_path("")
 CONFIG_FILE = os.path.join(BASE_DIR, "disciplined_life.json")
+# -----------------------
 
 class PersistentReminder:
     def __init__(self, root):
@@ -38,6 +66,7 @@ class PersistentReminder:
             "schedule": [["06:50", "【黄金100分】Python 学习"], ],
             "settings": {"geometry": "320x180+100+100"}
         }
+        # 如果文件不存在，会使用上面的 default_data
         if os.path.exists(CONFIG_FILE):
             try:
                 with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
@@ -71,14 +100,12 @@ class PersistentReminder:
         self.manage_btn = tk.Button(self.root, text="⚙", command=self.open_manage_window, font=("Arial", 10), bg="#2b2b2b", fg="#4c566a", bd=0)
         self.manage_btn.place(x=5, y=5)
 
-    # --- 核心：补全二级管理窗口 ---
     def open_manage_window(self):
         m_win = tk.Toplevel(self.root)
         m_win.title("日程管理")
         m_win.geometry("420x400")
         m_win.attributes("-topmost", True)
         
-        # 1. 点选时间区域
         pick_f = tk.Frame(m_win, pady=15)
         pick_f.pack()
         
@@ -99,7 +126,6 @@ class PersistentReminder:
         c_ent = tk.Entry(pick_f, width=20)
         c_ent.pack(side="left", padx=5)
 
-        # 2. 列表展示区域
         lb_frame = tk.Frame(m_win)
         lb_frame.pack(fill="both", expand=True, padx=20)
         
@@ -120,7 +146,6 @@ class PersistentReminder:
             time_str = f"{h_cb.get()}:{m_cb.get()}"
             content = c_ent.get().strip()
             if content:
-                # 覆盖同时间的旧任务
                 self.schedule = [item for item in self.schedule if item[0] != time_str]
                 self.schedule.append([time_str, content])
                 self.save_all_data()
@@ -133,13 +158,11 @@ class PersistentReminder:
             selection = lb.curselection()
             if selection:
                 item_text = lb.get(selection[0])
-                # 解析出时间戳 [HH:MM]
                 time_key = item_text.split(']')[0].split('[')[1].strip()
                 self.schedule = [item for item in self.schedule if item[0] != time_key]
                 self.save_all_data()
                 refresh_list()
 
-        # 3. 操作按钮区域
         btn_f = tk.Frame(m_win, pady=15)
         btn_f.pack()
         tk.Button(btn_f, text=" 添加 / 更新 ", command=add_item, bg="#a3be8c", width=12).pack(side="left", padx=10)
@@ -147,7 +170,6 @@ class PersistentReminder:
 
         refresh_list()
 
-    # --- 其他原有功能保持不变 ---
     def play_alert_sound(self):
         try: winsound.Beep(523, 500)
         except: pass
@@ -213,6 +235,6 @@ class PersistentReminder:
 if __name__ == "__main__":
     root = tk.Tk()
     style = ttk.Style()
-    style.theme_use('clam') # 使用 clam 主题让 Combobox 更好看
+    style.theme_use('clam')
     app = PersistentReminder(root)
     root.mainloop()

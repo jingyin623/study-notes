@@ -1,3 +1,15 @@
+"""
+Docstring for small-tools.findDuplicateFolders.find_null_folders_delete
+无限循环空文件夹清理器 - 专业版
+功能：
+1. 扫描指定路径下的所有空文件夹（包括多层嵌套的空文件夹）
+2. 显示扫描结果，允许用户选择性删除空文件夹
+3. 支持一键全自动循环删除，直到所有层级的空文件夹均被清理干净
+使用方法：
+1. 运行脚本后，输入需要扫描的路径（支持多个路径，用逗号分隔）
+2. 使用界面上的按钮进行手动删除或启动全自动清理
+"""
+
 import os
 import subprocess
 import tkinter as tk

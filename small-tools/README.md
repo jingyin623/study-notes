@@ -1,24 +1,9 @@
-# study-notes
-
-# 虚拟环境的安装(k可选不推荐)
-D:\python\Python38\python -m venv .venv
-
-# 安装包
-pip install numpy==1.24.3
-# 更新包
-pip install --upgrade 包名
-# 删除包
-pip uninstall 包1 包2 包3
-# 删除所有包（先导出包到文件，然后根据包文件删除所有包）
-pip freeze > requirements.txt
-pip uninstall -r requirements.txt -y
+# small-tools
+本项目主要是收集各种自己适用的小工具
+顺便自己练习一些python的语法，
 
 
-
-
-
-
-
+并记录一些自己常用的命令
 # 正常打包exe
 pyinstaller --name "daily_planner" daily_planner.py
 pyinstaller --noconsole --onefile --clean --name "upserver" Server_GUI.py
