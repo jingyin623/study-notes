@@ -27,6 +27,4 @@ build/
 # 忽略指定项目文件夹
 full-stack-fastapi-template
 what2eat-main
-Integrated_server
 PyQt5_Trading
-selenium_test
