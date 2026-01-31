@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "flask>=3.1.2",
+    "playwright>=1.58.0",
     "plyer>=2.1.0",
     "selenium>=4.40.0",
     "webdriver-manager>=4.0.2",
