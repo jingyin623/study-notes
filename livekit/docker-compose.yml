@@ -1,0 +1,15 @@
+services:
+  livekit:
+    image: livekit/livekit-server:latest
+    container_name: livekit-server
+    restart: always
+    command: --config /etc/livekit.yaml
+    ports:
+      - "7880:7880"
+      - "7881:7881"
+      - "50000-50050:50000-50050/udp"
+    volumes:
+      # 使用 type: bind 可以完美规避 Windows 盘符冒号的问题
+      - type: bind
+        source: ./livekit.yaml
+        target: /etc/livekit.yaml

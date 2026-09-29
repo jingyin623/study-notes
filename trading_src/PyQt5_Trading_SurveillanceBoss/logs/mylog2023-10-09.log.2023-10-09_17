@@ -1,0 +1,145 @@
+[ INFO] [2023-10-09 16:07:05,931] [AutoTrade_Pane.py] [ 35] > 线程启动更新时间:300
+[DEBUG] [2023-10-09 16:07:05,937] [GetWarrant.py] [138] > 查询条件:正股代码800000 |价格上限0.040 |街货下限1 |溢价上线0.10|做市商['BP', 'JP', 'UB']
+[DEBUG] [2023-10-09 16:07:06,164] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:07:06,502] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:07:06,597] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:07:06,682] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:07:06,760] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:07:06,839] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:07:06,924] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:07:07,013] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:07:07,094] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:07:07,175] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:07:07,253] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:07:07,330] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:07:07,410] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[ INFO] [2023-10-09 16:09:52,780] [SurveillanceBoss.py] [160] > subscribe successfully！current subscription status :(0, {'total_used': 10, 'remain': 290, 'own_used': 5, 'sub_list': {'QUOTE': ['HK.800000'], 'ORDER_BOOK': ['HK.HSImain', 'HK.55200'], 'BROKER': ['HK.HSImain', 'HK.55200'], 'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:09:53,415] [SurveillanceBoss.py] [ 43] > ['HK.19702', 990000, 'SELL']
+[ERROR] [2023-10-09 16:10:03,316] [SurveillanceBoss.py] [173] > Failed to cancel all subscriptions！订阅时间过短，至少需要订阅1分钟 17581 Ticker
+[ INFO] [2023-10-09 16:10:06,569] [SurveillanceBoss.py] [ 43] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:10:06,571] [SurveillanceBoss.py] [160] > subscribe successfully！current subscription status :(0, {'total_used': 10, 'remain': 290, 'own_used': 5, 'sub_list': {'QUOTE': ['HK.800000'], 'ORDER_BOOK': ['HK.HSImain', 'HK.55200'], 'BROKER': ['HK.HSImain', 'HK.55200'], 'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:11:18,200] [SurveillanceBoss.py] [160] > subscribe successfully！current subscription status :(0, {'total_used': 10, 'remain': 290, 'own_used': 5, 'sub_list': {'QUOTE': ['HK.800000'], 'ORDER_BOOK': ['HK.HSImain', 'HK.55200'], 'BROKER': ['HK.HSImain', 'HK.55200'], 'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:11:18,464] [SurveillanceBoss.py] [ 43] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:11:58,369] [SurveillanceBoss.py] [ 43] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:11:58,373] [SurveillanceBoss.py] [160] > subscribe successfully！current subscription status :(0, {'total_used': 10, 'remain': 290, 'own_used': 5, 'sub_list': {'QUOTE': ['HK.800000'], 'ORDER_BOOK': ['HK.HSImain', 'HK.55200'], 'BROKER': ['HK.HSImain', 'HK.55200'], 'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:12:05,935] [AutoTrade_Pane.py] [ 35] > 线程启动更新时间:300
+[DEBUG] [2023-10-09 16:12:05,940] [GetWarrant.py] [138] > 查询条件:正股代码800000 |价格上限0.040 |街货下限1 |溢价上线0.10|做市商['BP', 'JP', 'UB']
+[DEBUG] [2023-10-09 16:12:06,139] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:12:06,474] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:12:06,576] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:12:06,660] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:12:06,743] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:12:06,825] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:12:06,906] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:12:06,987] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:12:07,071] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:12:07,159] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:12:07,248] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:12:07,330] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[DEBUG] [2023-10-09 16:12:07,410] [GetBrokerId.py] [ 26] > 读取broker.json文件：{'UB': ['9763', '9695', '9697', '9696', '9740'], 'JP': ['9707', '9708', '9709', '9710', '9743', '9711', '9716', '9742', '9715'], 'BP': ['9691', '9692'], 'SG': ['9706']}
+[ INFO] [2023-10-09 16:12:11,600] [AutoTrade.py] [149] > unsubscribe successfully！current subscription status:(0, {'total_used': 32, 'remain': 268, 'own_used': 3, 'sub_list': {'QUOTE': ['HK.800000'], 'ORDER_BOOK': ['HK.55200', 'HK.55172', 'HK.55175', 'HK.55201', 'HK.55222', 'HK.55231', 'HK.55307', 'HK.55346', 'HK.55347', 'HK.55365', 'HK.55466', 'HK.55655', 'HK.55667'], 'BROKER': ['HK.55200', 'HK.55172', 'HK.55175', 'HK.55201', 'HK.55222', 'HK.55231', 'HK.55307', 'HK.55346', 'HK.55347', 'HK.55365', 'HK.55466', 'HK.55655', 'HK.55667'], 'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:12:11,603] [AutoTrade.py] [149] > unsubscribe successfully！current subscription status:(0, {'total_used': 29, 'remain': 271, 'own_used': 0, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025'], 'ORDER_BOOK': ['HK.55172', 'HK.55175', 'HK.55201', 'HK.55222', 'HK.55231', 'HK.55307', 'HK.55346', 'HK.55347', 'HK.55365', 'HK.55466', 'HK.55655', 'HK.55667'], 'BROKER': ['HK.55172', 'HK.55175', 'HK.55201', 'HK.55222', 'HK.55231', 'HK.55307', 'HK.55346', 'HK.55347', 'HK.55365', 'HK.55466', 'HK.55655', 'HK.55667']}})
+[DEBUG] [2023-10-09 16:12:11,603] [AutoTrade.py] [100] > 初始化记录值字典默认[-1, -1, -1, '-1', '-1']（0-0.250）
+[ INFO] [2023-10-09 16:12:11,603] [AutoTrade.py] [925] > 错误执行初始化代码FINALLY
+[ INFO] [2023-10-09 16:12:18,000] [SurveillanceBoss.py] [171] > unsubscribe all successfully！current subscription status:(0, {'total_used': 29, 'remain': 271, 'own_used': 0, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025'], 'ORDER_BOOK': ['HK.55172', 'HK.55175', 'HK.55201', 'HK.55222', 'HK.55231', 'HK.55307', 'HK.55346', 'HK.55347', 'HK.55365', 'HK.55466', 'HK.55655', 'HK.55667'], 'BROKER': ['HK.55172', 'HK.55175', 'HK.55201', 'HK.55222', 'HK.55231', 'HK.55307', 'HK.55346', 'HK.55347', 'HK.55365', 'HK.55466', 'HK.55655', 'HK.55667']}})
+[ INFO] [2023-10-09 16:12:25,892] [SurveillanceBoss.py] [160] > subscribe successfully！current subscription status :(0, {'total_used': 29, 'remain': 271, 'own_used': 5, 'sub_list': {'ORDER_BOOK': ['HK.55172', 'HK.55175', 'HK.55201', 'HK.55222', 'HK.55231', 'HK.55307', 'HK.55346', 'HK.55347', 'HK.55365', 'HK.55466', 'HK.55655', 'HK.55667'], 'BROKER': ['HK.55172', 'HK.55175', 'HK.55201', 'HK.55222', 'HK.55231', 'HK.55307', 'HK.55346', 'HK.55347', 'HK.55365', 'HK.55466', 'HK.55655', 'HK.55667'], 'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:12:26,124] [SurveillanceBoss.py] [ 43] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:20:05,557] [SurveillanceBoss.py] [165] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:20:06,085] [SurveillanceBoss.py] [ 48] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:21:27,237] [SurveillanceBoss.py] [167] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:21:27,480] [SurveillanceBoss.py] [ 50] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:23:11,723] [SurveillanceBoss.py] [168] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:23:11,975] [SurveillanceBoss.py] [ 51] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:23:47,490] [SurveillanceBoss.py] [ 55] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:23:47,493] [SurveillanceBoss.py] [172] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:26:44,886] [SurveillanceBoss.py] [166] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:26:45,113] [SurveillanceBoss.py] [ 49] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:27:25,660] [SurveillanceBoss.py] [ 49] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:27:25,663] [SurveillanceBoss.py] [166] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:29:11,461] [SurveillanceBoss.py] [166] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:29:11,663] [SurveillanceBoss.py] [ 49] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:29:24,662] [SurveillanceBoss.py] [ 49] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:29:24,667] [SurveillanceBoss.py] [166] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:34:36,887] [SurveillanceBoss.py] [166] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:34:37,449] [SurveillanceBoss.py] [ 49] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:39:54,252] [SurveillanceBoss.py] [169] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:39:54,488] [SurveillanceBoss.py] [ 52] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:40:16,625] [SurveillanceBoss.py] [ 53] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:40:16,629] [SurveillanceBoss.py] [170] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:40:52,971] [SurveillanceBoss.py] [ 53] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:40:52,975] [SurveillanceBoss.py] [170] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:41:03,224] [SurveillanceBoss.py] [170] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:41:03,539] [SurveillanceBoss.py] [ 53] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:42:21,378] [SurveillanceBoss.py] [171] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:42:21,631] [SurveillanceBoss.py] [ 54] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:42:32,053] [SurveillanceBoss.py] [ 54] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:42:32,059] [SurveillanceBoss.py] [171] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:42:48,040] [SurveillanceBoss.py] [ 54] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:42:48,045] [SurveillanceBoss.py] [171] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:43:24,542] [SurveillanceBoss.py] [172] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:43:24,774] [SurveillanceBoss.py] [ 55] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:44:17,411] [SurveillanceBoss.py] [ 53] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:44:17,422] [SurveillanceBoss.py] [170] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:44:29,550] [SurveillanceBoss.py] [170] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:44:29,777] [SurveillanceBoss.py] [ 53] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:44:41,296] [SurveillanceBoss.py] [ 53] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:44:41,300] [SurveillanceBoss.py] [170] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:46:24,590] [SurveillanceBoss.py] [170] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:46:24,836] [SurveillanceBoss.py] [ 53] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:46:40,510] [SurveillanceBoss.py] [ 53] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:46:40,515] [SurveillanceBoss.py] [170] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:47:08,549] [SurveillanceBoss.py] [ 53] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:47:08,552] [SurveillanceBoss.py] [170] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:47:48,219] [SurveillanceBoss.py] [170] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:47:48,490] [SurveillanceBoss.py] [ 53] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:48:37,410] [SurveillanceBoss.py] [ 53] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:48:37,415] [SurveillanceBoss.py] [170] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:48:56,534] [SurveillanceBoss.py] [170] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:48:56,790] [SurveillanceBoss.py] [ 53] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:49:33,864] [SurveillanceBoss.py] [ 53] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:49:33,866] [SurveillanceBoss.py] [170] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:50:18,551] [SurveillanceBoss.py] [171] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:50:18,810] [SurveillanceBoss.py] [ 53] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:50:41,570] [SurveillanceBoss.py] [ 53] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:50:41,572] [SurveillanceBoss.py] [171] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:50:52,406] [SurveillanceBoss.py] [ 53] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:50:52,407] [SurveillanceBoss.py] [171] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:51:03,473] [SurveillanceBoss.py] [ 53] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:51:03,474] [SurveillanceBoss.py] [171] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:51:30,083] [SurveillanceBoss.py] [171] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:51:30,341] [SurveillanceBoss.py] [ 53] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:51:44,832] [SurveillanceBoss.py] [ 53] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:51:44,834] [SurveillanceBoss.py] [171] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:52:08,109] [SurveillanceBoss.py] [ 53] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:52:08,110] [SurveillanceBoss.py] [171] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:53:09,292] [SurveillanceBoss.py] [171] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:53:09,523] [SurveillanceBoss.py] [ 53] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:55:56,344] [SurveillanceBoss.py] [173] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:55:56,890] [SurveillanceBoss.py] [ 55] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:56:29,660] [SurveillanceBoss.py] [ 55] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:56:29,661] [SurveillanceBoss.py] [173] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:56:52,165] [SurveillanceBoss.py] [ 55] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:56:52,166] [SurveillanceBoss.py] [173] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:57:17,747] [SurveillanceBoss.py] [174] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:57:17,996] [SurveillanceBoss.py] [ 56] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:58:14,245] [SurveillanceBoss.py] [ 56] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:58:14,247] [SurveillanceBoss.py] [174] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:58:48,739] [SurveillanceBoss.py] [174] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:58:48,990] [SurveillanceBoss.py] [ 56] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:59:55,828] [SurveillanceBoss.py] [169] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 16:59:56,067] [SurveillanceBoss.py] [ 51] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 17:00:37,128] [SurveillanceBoss.py] [ 51] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 17:00:37,129] [SurveillanceBoss.py] [169] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 17:00:58,546] [SurveillanceBoss.py] [169] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 17:00:58,797] [SurveillanceBoss.py] [ 51] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 17:09:26,776] [SurveillanceBoss.py] [169] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 17:09:27,331] [SurveillanceBoss.py] [ 51] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 17:09:50,119] [SurveillanceBoss.py] [ 51] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 17:09:50,121] [SurveillanceBoss.py] [169] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 17:10:45,679] [SurveillanceBoss.py] [169] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 17:10:45,949] [SurveillanceBoss.py] [ 51] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 17:10:57,882] [SurveillanceBoss.py] [ 51] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 17:10:57,885] [SurveillanceBoss.py] [169] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 17:11:26,129] [SurveillanceBoss.py] [ 50] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 17:11:26,132] [SurveillanceBoss.py] [168] > subscribe successfully！current subscription status :(0, {'total_used': 5, 'remain': 295, 'own_used': 5, 'sub_list': {'TICKER': ['HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ERROR] [2023-10-09 17:11:40,354] [SurveillanceBoss.py] [181] > Failed to cancel all subscriptions！订阅时间过短，至少需要订阅1分钟 17581 Ticker

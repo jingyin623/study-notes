@@ -1,0 +1,7 @@
+[DEBUG] [2025-04-15 18:27:41,020] [AutoTrade.py] [1142] > 重置代码:HK.28117价格：0
+[ INFO] [2025-04-15 18:27:41,036] [AutoTrade.py] [182] > unsubscribe all successfully！current subscription status:(0, {'total_used': 0, 'remain': 300, 'own_used': 0, 'sub_list': {}})
+[DEBUG] [2025-04-15 18:27:41,036] [AutoTrade.py] [124] > 初始化记录值字典默认[-1, -1, -1, '-1', '-1']（0-0.250）
+[ INFO] [2025-04-15 18:27:41,037] [AutoTrade.py] [1150] > 错误执行初始化代码
+[ INFO] [2025-04-15 18:27:41,037] [AutoTrade.py] [1151] > 'OpenSecTradeContext' object has no attribute 'unsubscribe_all'
+[DEBUG] [2025-04-15 18:27:41,037] [AutoTrade.py] [124] > 初始化记录值字典默认[-1, -1, -1, '-1', '-1']（0-0.250）
+[ INFO] [2025-04-15 18:27:41,037] [AutoTrade.py] [1158] > 错误执行初始化代码FINALLY，行情代码和交易代码重置为HK.00000

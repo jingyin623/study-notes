@@ -1,0 +1,12 @@
+[ERROR] [2025-01-23 12:58:14,643] [GetsJumpPoint.py] [281] > subscription failed
+[ERROR] [2025-01-23 12:58:14,656] [GetsJumpPoint.py] [281] > subscription failed
+[ERROR] [2025-01-23 12:58:14,657] [GetsJumpPoint.py] [281] > subscription failed
+[ERROR] [2025-01-23 12:58:14,672] [GetsJumpPoint.py] [281] > subscription failed
+[ERROR] [2025-01-23 12:58:14,672] [GetsJumpPoint.py] [281] > subscription failed
+[ERROR] [2025-01-23 12:58:14,687] [GetsJumpPoint.py] [281] > subscription failed
+[ERROR] [2025-01-23 12:58:14,696] [GetsJumpPoint.py] [281] > subscription failed
+[ INFO] [2025-01-23 12:58:14,698] [GetsJumpPoint.py] [279] > subscribe successfully£¡current subscription status :(0, {'total_used': 24, 'remain': 276, 'own_used': 4, 'sub_list': {'ORDER_BOOK': ['HK.00700', 'HK.26370', 'HK.03690', 'HK.29191', 'HK.13952', 'HK.27447', 'HK.26622', 'HK.28658', 'HK.02318', 'HK.29328', 'HK.21328', 'HK.24965'], 'BROKER': ['HK.00700', 'HK.26370', 'HK.03690', 'HK.29191', 'HK.13952', 'HK.27447', 'HK.26622', 'HK.28658', 'HK.02318', 'HK.29328', 'HK.21328', 'HK.24965']}})
+[ INFO] [2025-01-23 12:58:14,699] [GetsJumpPoint.py] [279] > subscribe successfully£¡current subscription status :(0, {'total_used': 24, 'remain': 276, 'own_used': 4, 'sub_list': {'ORDER_BOOK': ['HK.00700', 'HK.26370', 'HK.03690', 'HK.29191', 'HK.13952', 'HK.27447', 'HK.26622', 'HK.28658', 'HK.02318', 'HK.29328', 'HK.21328', 'HK.24965'], 'BROKER': ['HK.00700', 'HK.26370', 'HK.03690', 'HK.29191', 'HK.13952', 'HK.27447', 'HK.26622', 'HK.28658', 'HK.02318', 'HK.29328', 'HK.21328', 'HK.24965']}})
+[ERROR] [2025-01-23 12:58:14,702] [GetsJumpPoint.py] [281] > subscription failed
+[ERROR] [2025-01-23 12:58:14,718] [GetsJumpPoint.py] [281] > subscription failed
+[ERROR] [2025-01-23 12:58:14,719] [GetsJumpPoint.py] [281] > subscription failed

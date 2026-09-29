@@ -1,0 +1,18 @@
+{
+  "futu_api": {
+    "host": "https://openapi.futunn.com",
+    "api_key": "YOUR_API_KEY",
+    "access_token": "YOUR_ACCESS_TOKEN"
+  },
+  "monitor_settings": {
+    "amplitude_threshold": 0.02,
+    "check_interval": 60,
+    "sound_enabled": true,
+    "sound_frequency": 1000,
+    "sound_duration": 500,
+    "sound_repeat": 3
+  },
+  "data_retention": {
+    "history_hours": 2
+  }
+}

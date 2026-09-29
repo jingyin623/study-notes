@@ -1,0 +1,87 @@
+[ INFO] [2025-04-24 09:50:33,101] [AutoFlowTrade.py] [1154] > ************    初始化    ***********
+[ INFO] [2025-04-24 09:50:33,205] [AutoFlowTrade.py] [489] > 解锁交易成功！
+[ INFO] [2025-04-24 09:50:33,299] [AutoFlowTrade.py] [107] > 正股代码：HK.03690--参考行情代码HK.03690
+[ INFO] [2025-04-24 09:50:33,299] [AutoFlowTrade.py] [108] > 涡轮代码：HK.13331 | 涡轮方向：CALL | 目标经纪号：9711 | 换股比例：100.0 | 现金购买力：37610.3 | 一手的股数：10000
+[ INFO] [2025-04-24 09:50:33,299] [AutoFlowTrade.py] [110] > 理论波动率 ： 默认等于理论灵敏度-->5.2631578947368425
+[ INFO] [2025-04-24 09:50:33,300] [AutoFlowTrade.py] [111] > 买入开始：0.5 | 卖出开始：0.3 | 挂单量：1 | 仓位：[1, 40, 40]  | 是否跟随撤单(0跟随其他不跟随)：1 
+[ INFO] [2025-04-24 09:50:33,306] [AutoFlowTrade.py] [1170] > 订阅成功，开始交易
+[ INFO] [2025-04-24 09:50:33,306] [AutoFlowTrade.py] [1171] > ************  策略开始运行 ***********
+[ INFO] [2025-04-24 09:51:01,267] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.041|0    |129.7     |【130.3  |0.55|0.6 】|0.0|FH1A943C2D|BUY
+[ INFO] [2025-04-24 09:51:36,615] [AutoFlowTrade.py] [985] > 【FILLED_AL】|HK.13331|0.041|0    |129.7     |【129.8  |0.06|0.1 】|410000.0|FH1A943C2D|BUY
+[ERROR] [2025-04-24 09:51:36,878] [AutoFlowTrade.py] [413] > 下单数量超出最大可买数量。codeHK.13331 | price0.041|order_size410000.0|trd_sideSELL
+[ INFO] [2025-04-24 09:51:36,889] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.04 |0    |129.2     |【129.8  |0.0 |0.6 】|0.0|FH1A943C50|BUY
+[ERROR] [2025-04-24 09:52:13,877] [AutoFlowTrade.py] [459] > 撤订单失败: None error: 此订单号不存在
+[ERROR] [2025-04-24 09:52:14,088] [AutoFlowTrade.py] [413] > 下单数量超出最大可买数量。codeHK.13331 | price0.039|order_size440000|trd_sideBUY
+[ INFO] [2025-04-24 09:52:14,364] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.04 |0    |129.3     |【129.4  |0.17|0.1 】|0.0|FH1A943C50|BUY
+[ERROR] [2025-04-24 09:52:14,416] [AutoFlowTrade.py] [413] > 下单数量超出最大可买数量。codeHK.13331 | price0.04|order_size410000.0|trd_sideSELL
+[ERROR] [2025-04-24 09:52:22,824] [AutoFlowTrade.py] [459] > 撤订单失败: None error: 此订单号不存在
+[ERROR] [2025-04-24 09:52:22,828] [AutoFlowTrade.py] [459] > 撤订单失败: None error: 此订单号不存在
+[ INFO] [2025-04-24 09:52:29,832] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.039|0    |128.8     |【129.3  |0.53|0.5 】|0.0|FH1A943C84|BUY
+[ERROR] [2025-04-24 09:52:29,833] [AutoFlowTrade.py] [413] > 下单数量超出最大可买数量。codeHK.13331 | price0.04|order_size410000.0|trd_sideSELL
+[ERROR] [2025-04-24 09:52:37,654] [AutoFlowTrade.py] [459] > 撤订单失败: None error: 此订单号不存在
+[ INFO] [2025-04-24 09:52:37,792] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.039|0    |128.8     |【129.6  |0.12|0.8 】|0.0|FH1A943C84|BUY
+[ERROR] [2025-04-24 09:53:35,217] [AutoFlowTrade.py] [413] > 下单数量超出最大可买数量。codeHK.13331 | price0.04|order_size410000.0|trd_sideSELL
+[ INFO] [2025-04-24 09:53:35,229] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.039|0    |128.8     |【129.2  |0.52|0.4 】|0.0|FH1A943CC4|BUY
+[ERROR] [2025-04-24 09:54:21,652] [AutoFlowTrade.py] [459] > 撤订单失败: None error: 此订单号不存在
+[ERROR] [2025-04-24 09:54:21,861] [AutoFlowTrade.py] [413] > 下单数量超出最大可买数量。codeHK.13331 | price0.038|order_size410000|trd_sideBUY
+[ INFO] [2025-04-24 09:54:22,197] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.039|0    |128.7     |【128.7  |0.41|0.0 】|0.0|FH1A943CC4|BUY
+[ERROR] [2025-04-24 09:54:22,225] [AutoFlowTrade.py] [413] > 下单数量超出最大可买数量。codeHK.13331 | price0.039|order_size410000.0|trd_sideSELL
+[ERROR] [2025-04-24 09:56:44,111] [AutoFlowTrade.py] [459] > 撤订单失败: None error: 此订单号不存在
+[ERROR] [2025-04-24 09:56:44,115] [AutoFlowTrade.py] [459] > 撤订单失败: None error: 此订单号不存在
+[ERROR] [2025-04-24 09:56:57,034] [AutoFlowTrade.py] [413] > 下单数量超出最大可买数量。codeHK.13331 | price0.04|order_size410000.0|trd_sideSELL
+[ INFO] [2025-04-24 09:56:57,041] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.039|0    |128.3     |【128.8  |0.65|0.5 】|0.0|FH1A943D89|BUY
+[ INFO] [2025-04-24 10:05:39,636] [AutoFlowTrade.py] [1154] > ************    初始化    ***********
+[ INFO] [2025-04-24 10:05:39,740] [AutoFlowTrade.py] [489] > 解锁交易成功！
+[ INFO] [2025-04-24 10:05:39,842] [AutoFlowTrade.py] [107] > 正股代码：HK.03690--参考行情代码HK.03690
+[ INFO] [2025-04-24 10:05:39,842] [AutoFlowTrade.py] [108] > 涡轮代码：HK.13331 | 涡轮方向：CALL | 目标经纪号：9711 | 换股比例：100.0 | 现金购买力：37187.16 | 一手的股数：10000
+[ INFO] [2025-04-24 10:05:39,842] [AutoFlowTrade.py] [110] > 理论波动率 ： 默认等于理论灵敏度-->5.2631578947368425
+[ INFO] [2025-04-24 10:05:39,843] [AutoFlowTrade.py] [111] > 买入开始：0.5 | 卖出开始：0.3 | 挂单量：1 | 仓位：[1, 40, 40]  | 是否跟随撤单(0跟随其他不跟随)：1 
+[ INFO] [2025-04-24 10:05:39,854] [AutoFlowTrade.py] [1170] > 订阅成功，开始交易
+[ INFO] [2025-04-24 10:05:39,854] [AutoFlowTrade.py] [1171] > ************  策略开始运行 ***********
+[ INFO] [2025-04-24 10:08:39,882] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.04 |0    |128.9     |【129.4  |0.45|0.5 】|0.0|FH1A944037|BUY
+[ INFO] [2025-04-24 10:09:02,313] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.04 |0    |128.9     |【129.7  |0.23|0.8 】|0.0|FH1A944037|BUY
+[ INFO] [2025-04-24 10:09:02,837] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.041|0    |129.4     |【129.6  |0.94|0.2 】|0.0|FH1A94404E|BUY
+[ INFO] [2025-04-24 10:09:09,268] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.04 |0    |128.9     |【129.5  |0.6 |0.6 】|0.0|FH1A944054|BUY
+[ INFO] [2025-04-24 10:09:09,391] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.041|0    |129.4     |【129.5  |0.6 |0.1 】|0.0|FH1A94404E|BUY
+[ INFO] [2025-04-24 10:09:53,803] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.04 |0    |128.9     |【129.7  |0.22|0.8 】|0.0|FH1A944054|BUY
+[ INFO] [2025-04-24 10:09:54,400] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.041|0    |129.4     |【129.7  |0.19|0.3 】|0.0|FH1A944080|BUY
+[ INFO] [2025-04-24 10:10:59,295] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.04 |0    |128.9     |【129.5  |0.82|0.6 】|0.0|FH1A9440BF|BUY
+[ INFO] [2025-04-24 10:10:59,358] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.041|0    |129.4     |【129.5  |0.84|0.1 】|0.0|FH1A944080|BUY
+[ INFO] [2025-04-24 10:12:02,861] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.04 |0    |128.9     |【129.8  |0.38|0.9 】|0.0|FH1A9440BF|BUY
+[ INFO] [2025-04-24 10:12:03,376] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.041|0    |129.5     |【129.8  |0.36|0.3 】|0.0|FH1A9440FE|BUY
+[ INFO] [2025-04-24 10:12:26,495] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.04 |0    |128.9     |【129.7  |0.6 |0.8 】|0.0|FH1A944114|BUY
+[ INFO] [2025-04-24 10:12:26,527] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.041|0    |129.5     |【129.7  |0.6 |0.2 】|0.0|FH1A9440FE|BUY
+[ INFO] [2025-04-24 10:12:49,975] [AutoFlowTrade.py] [1132] > ************    修改交易数据    ***********
+[ INFO] [2025-04-24 10:12:50,074] [AutoFlowTrade.py] [107] > 正股代码：HK.03690--参考行情代码HK.03690
+[ INFO] [2025-04-24 10:12:50,074] [AutoFlowTrade.py] [108] > 涡轮代码：HK.13331 | 涡轮方向：CALL | 目标经纪号：9711 | 换股比例：100.0 | 现金购买力：37187.16 | 一手的股数：10000
+[ INFO] [2025-04-24 10:12:50,074] [AutoFlowTrade.py] [110] > 理论波动率 ： 默认等于理论灵敏度-->5.2631578947368425
+[ INFO] [2025-04-24 10:12:50,074] [AutoFlowTrade.py] [111] > 买入开始：0.6 | 卖出开始：0.4 | 挂单量：1 | 仓位：[1, 40, 40]  | 是否跟随撤单(0跟随其他不跟随)：1 
+[ INFO] [2025-04-24 10:12:50,078] [AutoFlowTrade.py] [1138] > 重新订阅成功，开始交易
+[ INFO] [2025-04-24 10:12:50,078] [AutoFlowTrade.py] [1139] > ************    修改交易数据完成    ***********
+[ INFO] [2025-04-24 10:14:59,175] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.039|0    |128.6     |【129.3  |0.29|0.7 】|0.0|FH1A9441AA|BUY
+[ INFO] [2025-04-24 10:14:59,257] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.04 |0    |129.1     |【129.3  |0.26|0.2 】|0.0|FH1A944114|BUY
+[ INFO] [2025-04-24 10:15:12,645] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.039|0    |128.6     |【129.5  |0.09|0.9 】|0.0|FH1A9441AA|BUY
+[ INFO] [2025-04-24 10:15:13,131] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.04 |0    |129.1     |【129.5  |0.22|0.4 】|0.0|FH1A9441B7|BUY
+[ INFO] [2025-04-24 10:16:18,582] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.039|0    |128.6     |【129.3  |0.27|0.7 】|0.0|FH1A9441F7|BUY
+[ INFO] [2025-04-24 10:16:18,668] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.04 |0    |129.1     |【129.3  |0.27|0.2 】|0.0|FH1A9441B7|BUY
+[ INFO] [2025-04-24 10:23:16,213] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.039|0    |128.6     |【129.5  |0.07|0.9 】|0.0|FH1A9441F7|BUY
+[ INFO] [2025-04-24 10:23:16,771] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.04 |0    |129.1     |【129.5  |0.03|0.4 】|0.0|FH1A94438F|BUY
+[ INFO] [2025-04-24 10:29:08,697] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.04 |0    |129.0     |【129.8  |0.72|0.8 】|0.0|FH1A94438F|BUY
+[ INFO] [2025-04-24 10:29:09,180] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.041|0    |129.5     |【129.8  |0.73|0.3 】|0.0|FH1A9444E8|BUY
+[ INFO] [2025-04-24 10:29:33,836] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.04 |0    |129.0     |【129.7  |0.71|0.7 】|0.0|FH1A944500|BUY
+[ INFO] [2025-04-24 10:29:33,922] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.041|0    |129.5     |【129.7  |0.71|0.2 】|0.0|FH1A9444E8|BUY
+[ INFO] [2025-04-24 10:30:18,804] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.04 |0    |129.0     |【129.8  |0.72|0.8 】|0.0|FH1A944500|BUY
+[ INFO] [2025-04-24 10:30:19,314] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.041|0    |129.5     |【129.8  |0.72|0.3 】|0.0|FH1A94452C|BUY
+[ INFO] [2025-04-24 10:31:41,038] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.04 |0    |129.0     |【129.7  |0.64|0.7 】|0.0|FH1A94457C|BUY
+[ INFO] [2025-04-24 10:31:41,092] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.041|0    |129.5     |【129.7  |0.64|0.2 】|0.0|FH1A94452C|BUY
+[ INFO] [2025-04-24 10:34:16,812] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.039|0    |128.5     |【129.3  |0.83|0.8 】|0.0|FH1A944614|BUY
+[ INFO] [2025-04-24 10:34:16,914] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.04 |0    |129.1     |【129.3  |0.83|0.2 】|0.0|FH1A94457C|BUY
+[ INFO] [2025-04-24 10:36:18,764] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.039|0    |128.6     |【129.4  |0.4 |0.8 】|0.0|FH1A944614|BUY
+[ INFO] [2025-04-24 10:36:19,319] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.04 |0    |129.1     |【129.4  |0.41|0.3 】|0.0|FH1A94468C|BUY
+[ INFO] [2025-04-24 10:36:38,642] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.04 |0    |129.1     |【129.2  |0.64|0.1 】|0.0|FH1A94468C|BUY
+[ INFO] [2025-04-24 10:36:38,921] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.039|0    |128.6     |【129.2  |0.71|0.6 】|0.0|FH1A94469E|BUY
+[ERROR] [2025-04-24 10:39:29,836] [AutoFlowTrade.py] [413] > 下单数量超出最大可买数量。codeHK.13331 | price0.039|order_size0.0|trd_sideSELL
+[ INFO] [2025-04-24 10:39:29,862] [AutoFlowTrade.py] [177] > unsubscribe all successfully！current subscription status:(0, {'total_used': 14, 'remain': 286, 'own_used': 0, 'sub_list': {'ORDER_BOOK': ['HK.02318', 'HK.28117', 'HK.03690', 'HK.13331', 'HK.00700', 'HK.29684', 'HK.13374'], 'BROKER': ['HK.02318', 'HK.28117', 'HK.03690', 'HK.13331', 'HK.00700', 'HK.29684', 'HK.13374']}})
+[ INFO] [2025-04-24 10:39:29,862] [AutoFlowTrade.py] [1084] > 错误执行初始化代码
+[ INFO] [2025-04-24 10:39:29,862] [AutoFlowTrade.py] [1085] > 'OpenSecTradeContext' object has no attribute 'unsubscribe_all'
+[ INFO] [2025-04-24 10:39:29,863] [AutoFlowTrade.py] [1092] > 错误执行初始化代码FINALLY，行情代码和交易代码重置为HK.00000

@@ -10,16 +10,38 @@ Docstring for small-tools.download.download
 2. 准备好包含登录信息的 cookies 文件（例如从浏览器导出的 cookies）
 3. 运行脚本，视频链接和 cookies 文件路径可在代码中修改
 """
+
+
+
+
+# import os
+
+# COOKIE_FILE = "youtube.com_cookies.txt" 
+# urls = ["https://www.youtube.com/watch?v=WR1FY32Lhps"]
+
+# for url in urls:
+#     print(f"🚀 正在下载视频并抓取双语字幕: {url}")
+#     # --write-auto-subs: 下载自动生成的字幕
+#     # --sub-lang "en,zh-Hans": 尝试下载英文和简体中文
+#     # --convert-subs "srt": 转换成最常见的字幕格式
+#     os.system(f'yt-dlp -f "bestvideo[height<=480]+bestaudio/best" --cookies {COOKIE_FILE} --write-auto-subs --sub-lang "en,zh-Hans" --convert-subs "srt" {url}')
+
+# print("✅ 下载完成！请在文件夹里找同名的 .srt 文件。")
+
+
 import os
 
+# 确保已安装 FFmpeg，否则音频和画面会分开
 COOKIE_FILE = "youtube.com_cookies.txt" 
-urls = ["https://www.youtube.com/watch?v=k9TUPpGqYTo"]
+urls = ["https://www.youtube.com/watch?v=WR1FY32Lhps"]
 
 for url in urls:
-    print(f"🚀 正在下载视频并抓取双语字幕: {url}")
-    # --write-auto-subs: 下载自动生成的字幕
-    # --sub-lang "en,zh-Hans": 尝试下载英文和简体中文
-    # --convert-subs "srt": 转换成最常见的字幕格式
-    os.system(f'yt-dlp -f "bestvideo[height<=480]+bestaudio/best" --cookies {COOKIE_FILE} --write-auto-subs --sub-lang "en,zh-Hans" --convert-subs "srt" {url}')
+    print(f"🚀 正在下载并合并视频: {url}")
+    # -f "bestvideo[height<=480]+bestaudio/best" 会尝试合并最高480p视频和最佳音频
+    # --merge-output-format mp4 强制输出为 mp4 格式，方便播放
+    os.system(f'yt-dlp -f "bestvideo[height<=480]+bestaudio/best" '
+              f'--merge-output-format mp4 '
+              f'--cookies {COOKIE_FILE} '
+              f'--write-auto-subs --sub-lang "en,zh-Hans" --convert-subs "srt" {url}')
 
-print("✅ 下载完成！请在文件夹里找同名的 .srt 文件。")
+print("✅ 下载完成！视频和音频已合并。")

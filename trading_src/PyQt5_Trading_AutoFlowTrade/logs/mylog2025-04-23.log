@@ -1,0 +1,14 @@
+[ INFO] [2025-04-23 14:41:19,992] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.047|0    |132.8     |【133.6  |0.02|0.8 】|0.0|FH1A933409|BUY
+[ INFO] [2025-04-23 14:41:20,482] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.048|0    |133.3     |【133.6  |0.02|0.3 】|0.0|FH1A933509|BUY
+[ INFO] [2025-04-23 14:56:11,860] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.048|0    |133.2     |【134.0  |0.26|0.8 】|0.0|FH1A933509|BUY
+[ERROR] [2025-04-23 14:56:11,896] [AutoFlowTrade.py] [413] > 下单数量超出最大可买数量。codeHK.13331 | price0.049|order_size380000|trd_sideBUY
+[ERROR] [2025-04-23 15:00:42,367] [AutoFlowTrade.py] [459] > 撤订单失败: None error: 此订单号不存在
+[ INFO] [2025-04-23 15:00:42,564] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.048|0    |133.6     |【134.1  |0.42|0.5 】|0.0|FH1A933978|BUY
+[ INFO] [2025-04-23 15:03:26,115] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.048|0    |133.6     |【134.3  |0.18|0.7 】|0.0|FH1A933978|BUY
+[ INFO] [2025-04-23 15:03:26,616] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.049|0    |134.1     |【134.4  |0.02|0.3 】|0.0|FH1A933A18|BUY
+[ INFO] [2025-04-23 15:19:00,014] [AutoFlowTrade.py] [985] > 【CANCELLED】|HK.13331|0.049|0    |134.1     |【134.4  |0.59|0.3 】|0.0|FH1A933A18|BUY
+[ INFO] [2025-04-23 15:19:00,734] [AutoFlowTrade.py] [985] > 【SUBMITTED】|HK.13331|0.049|0    |134.1     |【134.4  |0.63|0.3 】|0.0|FH1A933DA8|BUY
+[ INFO] [2025-04-23 15:19:03,563] [AutoFlowTrade.py] [177] > unsubscribe all successfully！current subscription status:(0, {'total_used': 14, 'remain': 286, 'own_used': 0, 'sub_list': {'ORDER_BOOK': ['HK.02318', 'HK.28117', 'HK.03690', 'HK.13331', 'HK.00700', 'HK.29684', 'HK.13374'], 'BROKER': ['HK.02318', 'HK.28117', 'HK.03690', 'HK.13331', 'HK.00700', 'HK.29684', 'HK.13374']}})
+[ INFO] [2025-04-23 15:19:03,565] [AutoFlowTrade.py] [1084] > 错误执行初始化代码
+[ INFO] [2025-04-23 15:19:03,565] [AutoFlowTrade.py] [1085] > 'OpenSecTradeContext' object has no attribute 'unsubscribe_all'
+[ INFO] [2025-04-23 15:19:03,565] [AutoFlowTrade.py] [1092] > 错误执行初始化代码FINALLY，行情代码和交易代码重置为HK.00000

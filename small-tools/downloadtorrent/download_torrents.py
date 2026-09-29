@@ -1,3 +1,7 @@
+'''
+Docstring for small-tools.downloadtorrent.download_torrents
+馒头专用智能工资下载脚本
+'''
 import asyncio
 import os
 import random
@@ -7,20 +11,31 @@ from playwright.async_api import async_playwright
 SAVE_DIR = r"C:\Users\MR.jiang\Desktop\DWON" 
 
 # 1. 页面配置
-PAGE_START = 28      # 从第几页开始
-PAGE_END = 34       # 到第几页结束 (含)
+PAGE_START = 0      # 从第几页开始
+PAGE_END = 1       # 到第几页结束 (含)
 
 # 2. 按钮配置
 BUTTON_START = 1    # 每页从第几个按钮开始
-BUTTON_END = 100    # 每页点到第几个按钮结束
+BUTTON_END = 50    # 每页点到第几个按钮结束
 
-# URL 地址设置
-LOGIN_URL = "https://kp.m-team.cc/login"
+# URL登录 网址
+LOGIN_URL = "http://qkjpw.ayuanwl.com/loginByPhone"
+
+
+
+
+
+
+
 # 3. 模板配置 (关键：使用 {i} 作为占位符)
 # 如果你想换搜索条件，直接改这里的 URL 即可
-URL_TEMPLATE = "https://kp.m-team.cc/browse?pageNumber={i}&sort=size%3Aascend"
+URL_TEMPLATE = "https://www.pttime.org/bookmarks.php?inclbookmarked=1&incldead=0&spstate=0&page={i}"
 # 如果网站改版，直接改这里的 XPath 即可
-XPATH_TEMPLATE = '//*[@id="app-content"]/div/div[4]/div[1]/div/div/div/div/table/tbody/tr[{i}]/td[7]/button[2]'
+XPATH_TEMPLATE = '//*[@id="torrenttable"]/tbody/tr[{i}]/td[2]/table/tbody/tr/td[2]/table/tbody/tr/td[2]/a[1]'
+# XPATH_TEMPLATE = '//*[@id="torrenttable"]/tbody/tr[22]/td[2]/table/tbody/tr/td[2]/table/tbody/tr/td[2]/a[1]'
+# XPATH_TEMPLATE = '//*[@id="torrenttable"]/tbody/tr[34]/td[2]/table/tbody/tr/td[2]/table/tbody/tr/td[2]/a[1]'
+
+
 # ----------------
 
 async def run():
@@ -77,11 +92,11 @@ async def run():
                             print(f"✅ 下载成功: {file_name}")
                         except Exception as e:
                             print(f"❌ Row {i} 下载失败或超时 (可能被拦截)。")
-                            await asyncio.sleep(20)
-                            continue
+                            await asyncio.sleep(1200)
+                            pass
                         
                         # 随机休息，保护账号
-                        wait_time = random.uniform(15, 25)
+                        wait_time = random.uniform(20, 30)
                         print(f"☕ 休息 {wait_time:.1f} 秒...")
                         await asyncio.sleep(wait_time) 
                         

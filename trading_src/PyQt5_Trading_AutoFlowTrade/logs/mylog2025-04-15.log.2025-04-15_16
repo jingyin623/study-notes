@@ -1,0 +1,15 @@
+[ INFO] [2025-04-15 15:59:41,024] [AutoTrade.py] [937] > 当前时间[15:59:41]不在交易时间段执行
+[DEBUG] [2025-04-15 15:59:41,026] [AutoTrade.py] [1136] > 重置代码:HK.28117价格：0.019
+[ INFO] [2025-04-15 15:59:41,202] [AutoTrade.py] [178] > unsubscribe all successfully！current subscription status:(0, {'total_used': 18, 'remain': 282, 'own_used': 0, 'sub_list': {'ORDER_BOOK': ['HK.03690', 'HK.27447', 'HK.00700', 'HK.29015', 'HK.02318', 'HK.13071', 'HK.14011', 'HK.14474', 'HK.28117'], 'BROKER': ['HK.03690', 'HK.27447', 'HK.00700', 'HK.29015', 'HK.02318', 'HK.13071', 'HK.14011', 'HK.14474', 'HK.28117']}})
+[DEBUG] [2025-04-15 15:59:41,202] [AutoTrade.py] [120] > 初始化记录值字典默认[-1, -1, -1, '-1', '-1']（0-0.250）
+[ INFO] [2025-04-15 15:59:41,203] [AutoTrade.py] [1144] > 错误执行初始化代码
+[ INFO] [2025-04-15 15:59:41,203] [AutoTrade.py] [1145] > 'OpenSecTradeContext' object has no attribute 'unsubscribe_all'
+[DEBUG] [2025-04-15 15:59:41,203] [AutoTrade.py] [120] > 初始化记录值字典默认[-1, -1, -1, '-1', '-1']（0-0.250）
+[ INFO] [2025-04-15 15:59:41,204] [AutoTrade.py] [1152] > 错误执行初始化代码FINALLY，行情代码和交易代码重置为HK.00000
+[DEBUG] [2025-04-15 16:39:36,866] [AutoTrade.py] [1136] > 重置代码:HK.00000价格：0
+[ INFO] [2025-04-15 16:39:36,889] [AutoTrade.py] [178] > unsubscribe all successfully！current subscription status:(0, {'total_used': 0, 'remain': 300, 'own_used': 0, 'sub_list': {}})
+[DEBUG] [2025-04-15 16:39:36,890] [AutoTrade.py] [120] > 初始化记录值字典默认[-1, -1, -1, '-1', '-1']（0-0.250）
+[ INFO] [2025-04-15 16:39:36,890] [AutoTrade.py] [1144] > 错误执行初始化代码
+[ INFO] [2025-04-15 16:39:36,890] [AutoTrade.py] [1145] > 'OpenSecTradeContext' object has no attribute 'unsubscribe_all'
+[DEBUG] [2025-04-15 16:39:36,890] [AutoTrade.py] [120] > 初始化记录值字典默认[-1, -1, -1, '-1', '-1']（0-0.250）
+[ INFO] [2025-04-15 16:39:36,891] [AutoTrade.py] [1152] > 错误执行初始化代码FINALLY，行情代码和交易代码重置为HK.00000

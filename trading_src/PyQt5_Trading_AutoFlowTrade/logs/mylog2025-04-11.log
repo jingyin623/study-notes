@@ -1,0 +1,397 @@
+[ INFO] [2025-04-11 13:07:26,934] [AutoTrade.py] [492] > 解锁交易成功！
+[ INFO] [2025-04-11 13:07:27,047] [AutoTrade.py] [109] > 正股代码：HK.02318
+[ INFO] [2025-04-11 13:07:27,048] [AutoTrade.py] [110] > 涡轮代码：HK.28117 | 涡轮方向：CALL | 目标经纪号：9715 | 现金购买力：36793.59 
+[ INFO] [2025-04-11 13:07:27,048] [AutoTrade.py] [112] > 实际波动率-->REAL
+[ INFO] [2025-04-11 13:07:27,048] [AutoTrade.py] [113] > 买入开始：0.6 | 卖出开始：0.3 | 挂单量：3 | 仓位：[1, 1, 1]  | 是否跟随撤单(0跟随其他不跟随)：1 | 微调价格：[2.0, 2.0]
+[ INFO] [2025-04-11 13:07:27,057] [AutoTrade.py] [1190] > 订阅成功，开始交易
+[ INFO] [2025-04-11 13:07:27,058] [AutoTrade.py] [1191] > ************  策略开始运行 ***********
+[ INFO] [2025-04-11 13:07:56,366] [AutoTrade.py] [1154] > ************    初始化    ***********
+[ INFO] [2025-04-11 13:07:56,472] [AutoTrade.py] [492] > 解锁交易成功！
+[ INFO] [2025-04-11 13:07:56,586] [AutoTrade.py] [109] > 正股代码：HK.00700
+[ INFO] [2025-04-11 13:07:56,587] [AutoTrade.py] [110] > 涡轮代码：HK.29015 | 涡轮方向：CALL | 目标经纪号：9743 | 现金购买力：36793.59 
+[ INFO] [2025-04-11 13:07:56,587] [AutoTrade.py] [112] > 实际波动率-->REAL
+[ INFO] [2025-04-11 13:07:56,587] [AutoTrade.py] [113] > 买入开始：0.6 | 卖出开始：0.3 | 挂单量：2 | 仓位：[1, 1, 1]  | 是否跟随撤单(0跟随其他不跟随)：1 | 微调价格：[2.0, 2.0]
+[ INFO] [2025-04-11 13:07:56,595] [AutoTrade.py] [1170] > 订阅成功，开始交易
+[ INFO] [2025-04-11 13:07:56,595] [AutoTrade.py] [1171] > ************  策略开始运行 ***********
+[ INFO] [2025-04-11 13:09:19,088] [AutoTrade.py] [969] > sun3.4687--num3--numnum0.00047--THEORETICAL_PRICE0.053
+[ INFO] [2025-04-11 13:09:19,088] [AutoTrade.py] [970] > 行情 440.80075--理论买入440.80047
+[ INFO] [2025-04-11 13:10:12,233] [AutoTrade.py] [179] > unsubscribe all successfully！current subscription status:(0, {'total_used': 18, 'remain': 282, 'own_used': 0, 'sub_list': {'ORDER_BOOK': ['HK.00700', 'HK.14011', 'HK.02318', 'HK.28117', 'HK.13071', 'HK.03690', 'HK.27447', 'HK.14474', 'HK.29015'], 'BROKER': ['HK.00700', 'HK.14011', 'HK.02318', 'HK.28117', 'HK.13071', 'HK.03690', 'HK.27447', 'HK.14474', 'HK.29015']}})
+[ INFO] [2025-04-11 13:10:12,233] [AutoTrade.py] [1105] > 错误执行初始化代码
+[ INFO] [2025-04-11 13:10:12,233] [AutoTrade.py] [1106] > 'OpenSecTradeContext' object has no attribute 'unsubscribe_all'
+[ INFO] [2025-04-11 13:10:12,234] [AutoTrade.py] [1113] > 错误执行初始化代码FINALLY，行情代码和交易代码重置为HK.00000
+[ INFO] [2025-04-11 13:11:03,212] [AutoTrade.py] [1154] > ************    初始化    ***********
+[ INFO] [2025-04-11 13:11:03,314] [AutoTrade.py] [492] > 解锁交易成功！
+[ INFO] [2025-04-11 13:11:03,428] [AutoTrade.py] [109] > 正股代码：HK.00700
+[ INFO] [2025-04-11 13:11:03,429] [AutoTrade.py] [110] > 涡轮代码：HK.29015 | 涡轮方向：CALL | 目标经纪号：9743 | 现金购买力：36793.59 
+[ INFO] [2025-04-11 13:11:03,429] [AutoTrade.py] [112] > 实际波动率-->REAL
+[ INFO] [2025-04-11 13:11:03,429] [AutoTrade.py] [113] > 买入开始：0.6 | 卖出开始：0.3 | 挂单量：2 | 仓位：[1, 1, 1]  | 是否跟随撤单(0跟随其他不跟随)：1 | 微调价格：[2.0, 2.0]
+[ INFO] [2025-04-11 13:11:03,439] [AutoTrade.py] [1170] > 订阅成功，开始交易
+[ INFO] [2025-04-11 13:11:03,440] [AutoTrade.py] [1171] > ************  策略开始运行 ***********
+[ INFO] [2025-04-11 13:11:34,425] [AutoTrade.py] [969] > sun2.79--num2--numnum0.00079--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:11:34,425] [AutoTrade.py] [970] > 行情 441.40025--理论买入441.00079
+[ INFO] [2025-04-11 13:12:20,050] [AutoTrade.py] [179] > unsubscribe all successfully！current subscription status:(0, {'total_used': 18, 'remain': 282, 'own_used': 0, 'sub_list': {'ORDER_BOOK': ['HK.00700', 'HK.14011', 'HK.02318', 'HK.28117', 'HK.13071', 'HK.03690', 'HK.27447', 'HK.14474', 'HK.29015'], 'BROKER': ['HK.00700', 'HK.14011', 'HK.02318', 'HK.28117', 'HK.13071', 'HK.03690', 'HK.27447', 'HK.14474', 'HK.29015']}})
+[ INFO] [2025-04-11 13:12:20,050] [AutoTrade.py] [1105] > 错误执行初始化代码
+[ INFO] [2025-04-11 13:12:20,050] [AutoTrade.py] [1106] > 'OpenSecTradeContext' object has no attribute 'unsubscribe_all'
+[ INFO] [2025-04-11 13:12:20,050] [AutoTrade.py] [1113] > 错误执行初始化代码FINALLY，行情代码和交易代码重置为HK.00000
+[ INFO] [2025-04-11 13:12:27,730] [AutoTrade.py] [1154] > ************    初始化    ***********
+[ INFO] [2025-04-11 13:12:27,842] [AutoTrade.py] [492] > 解锁交易成功！
+[ INFO] [2025-04-11 13:12:27,966] [AutoTrade.py] [109] > 正股代码：HK.00700
+[ INFO] [2025-04-11 13:12:27,966] [AutoTrade.py] [110] > 涡轮代码：HK.29015 | 涡轮方向：CALL | 目标经纪号：9743 | 现金购买力：36793.59 
+[ INFO] [2025-04-11 13:12:27,966] [AutoTrade.py] [112] > 实际波动率-->REAL
+[ INFO] [2025-04-11 13:12:27,967] [AutoTrade.py] [113] > 买入开始：0.6 | 卖出开始：0.3 | 挂单量：2 | 仓位：[1, 1, 1]  | 是否跟随撤单(0跟随其他不跟随)：1 | 微调价格：[2.0, 2.0]
+[ INFO] [2025-04-11 13:12:27,975] [AutoTrade.py] [1170] > 订阅成功，开始交易
+[ INFO] [2025-04-11 13:12:27,976] [AutoTrade.py] [1171] > ************  策略开始运行 ***********
+[ INFO] [2025-04-11 13:12:31,452] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:31,452] [AutoTrade.py] [970] > 行情 441.60015--理论买入441.20061
+[ INFO] [2025-04-11 13:12:31,456] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:31,456] [AutoTrade.py] [970] > 行情 441.60015--理论买入441.20061
+[ INFO] [2025-04-11 13:12:31,461] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:31,461] [AutoTrade.py] [970] > 行情 441.60015--理论买入441.20061
+[ INFO] [2025-04-11 13:12:31,466] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:31,466] [AutoTrade.py] [970] > 行情 441.60015--理论买入441.20061
+[ INFO] [2025-04-11 13:12:31,471] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:31,471] [AutoTrade.py] [970] > 行情 441.60016--理论买入441.20061
+[ INFO] [2025-04-11 13:12:31,475] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:31,476] [AutoTrade.py] [970] > 行情 441.60016--理论买入441.20061
+[ INFO] [2025-04-11 13:12:31,484] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:31,484] [AutoTrade.py] [970] > 行情 441.60016--理论买入441.20061
+[ INFO] [2025-04-11 13:12:31,488] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:31,488] [AutoTrade.py] [970] > 行情 441.60016--理论买入441.20061
+[ INFO] [2025-04-11 13:12:31,496] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:31,496] [AutoTrade.py] [970] > 行情 441.60016--理论买入441.20061
+[ INFO] [2025-04-11 13:12:31,507] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:31,507] [AutoTrade.py] [970] > 行情 441.60016--理论买入441.20061
+[ INFO] [2025-04-11 13:12:33,029] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:33,029] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:33,044] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:33,044] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:33,046] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:33,046] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:33,051] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:33,051] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:33,055] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:33,056] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:33,057] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:33,057] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:33,064] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:33,064] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:33,068] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:33,068] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:34,596] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:34,596] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:34,597] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:34,597] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:34,612] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:34,612] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:34,617] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:34,617] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:34,621] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:34,621] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:34,625] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:34,625] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:34,630] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:34,631] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:34,638] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:34,638] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:34,639] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:34,639] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:34,641] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:34,641] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:34,649] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:34,649] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:34,651] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:34,651] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:34,656] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:34,656] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:34,661] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:34,661] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:34,665] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:34,665] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:34,669] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:34,670] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:34,671] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:34,671] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:34,714] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:34,714] [AutoTrade.py] [970] > 行情 441.60013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:35,182] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:35,183] [AutoTrade.py] [970] > 行情 441.60012--理论买入441.20061
+[ INFO] [2025-04-11 13:12:35,647] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:35,647] [AutoTrade.py] [970] > 行情 441.60011--理论买入441.20061
+[ INFO] [2025-04-11 13:12:35,843] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:35,843] [AutoTrade.py] [970] > 行情 441.60016--理论买入441.20061
+[ INFO] [2025-04-11 13:12:35,973] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:35,973] [AutoTrade.py] [970] > 行情 441.60017--理论买入441.20061
+[ INFO] [2025-04-11 13:12:36,074] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:36,074] [AutoTrade.py] [970] > 行情 441.60017--理论买入441.20061
+[ INFO] [2025-04-11 13:12:36,218] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:36,218] [AutoTrade.py] [970] > 行情 441.60016--理论买入441.20061
+[ INFO] [2025-04-11 13:12:36,277] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:36,277] [AutoTrade.py] [970] > 行情 441.40008--理论买入441.20061
+[ INFO] [2025-04-11 13:12:36,423] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:36,423] [AutoTrade.py] [970] > 行情 441.40007--理论买入441.20061
+[ INFO] [2025-04-11 13:12:36,614] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:36,615] [AutoTrade.py] [970] > 行情 441.40007--理论买入441.20061
+[ INFO] [2025-04-11 13:12:36,744] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:36,744] [AutoTrade.py] [970] > 行情 441.40009--理论买入441.20061
+[ INFO] [2025-04-11 13:12:36,874] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:36,874] [AutoTrade.py] [970] > 行情 441.40012--理论买入441.20061
+[ INFO] [2025-04-11 13:12:36,967] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:36,968] [AutoTrade.py] [970] > 行情 441.40011--理论买入441.20061
+[ INFO] [2025-04-11 13:12:37,153] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:37,153] [AutoTrade.py] [970] > 行情 441.40012--理论买入441.20061
+[ INFO] [2025-04-11 13:12:37,206] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:37,206] [AutoTrade.py] [970] > 行情 441.40012--理论买入441.20061
+[ INFO] [2025-04-11 13:12:37,277] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:37,277] [AutoTrade.py] [970] > 行情 441.40012--理论买入441.20061
+[ INFO] [2025-04-11 13:12:37,335] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:37,335] [AutoTrade.py] [970] > 行情 441.40018--理论买入441.20061
+[ INFO] [2025-04-11 13:12:37,400] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:37,400] [AutoTrade.py] [970] > 行情 441.40018--理论买入441.20061
+[ INFO] [2025-04-11 13:12:37,456] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:37,456] [AutoTrade.py] [970] > 行情 441.40012--理论买入441.20061
+[ INFO] [2025-04-11 13:12:37,522] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:37,523] [AutoTrade.py] [970] > 行情 441.40012--理论买入441.20061
+[ INFO] [2025-04-11 13:12:37,573] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:37,573] [AutoTrade.py] [970] > 行情 441.40011--理论买入441.20061
+[ INFO] [2025-04-11 13:12:37,745] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:37,745] [AutoTrade.py] [970] > 行情 441.40011--理论买入441.20061
+[ INFO] [2025-04-11 13:12:37,904] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:37,904] [AutoTrade.py] [970] > 行情 441.40012--理论买入441.20061
+[ INFO] [2025-04-11 13:12:37,974] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:37,975] [AutoTrade.py] [970] > 行情 441.40012--理论买入441.20061
+[ INFO] [2025-04-11 13:12:38,020] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:38,020] [AutoTrade.py] [970] > 行情 441.40012--理论买入441.20061
+[ INFO] [2025-04-11 13:12:38,073] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:38,073] [AutoTrade.py] [970] > 行情 441.40011--理论买入441.20061
+[ INFO] [2025-04-11 13:12:38,124] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:38,124] [AutoTrade.py] [970] > 行情 441.40011--理论买入441.20061
+[ INFO] [2025-04-11 13:12:38,276] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:38,277] [AutoTrade.py] [970] > 行情 441.40031--理论买入441.20061
+[ INFO] [2025-04-11 13:12:38,444] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:38,444] [AutoTrade.py] [970] > 行情 441.40048--理论买入441.20061
+[ INFO] [2025-04-11 13:12:38,585] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:38,585] [AutoTrade.py] [970] > 行情 441.40035--理论买入441.20061
+[ INFO] [2025-04-11 13:12:38,707] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:38,707] [AutoTrade.py] [970] > 行情 441.40048--理论买入441.20061
+[ INFO] [2025-04-11 13:12:38,775] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:38,775] [AutoTrade.py] [970] > 行情 441.40042--理论买入441.20061
+[ INFO] [2025-04-11 13:12:38,825] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:38,825] [AutoTrade.py] [970] > 行情 441.40023--理论买入441.20061
+[ INFO] [2025-04-11 13:12:38,871] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:38,871] [AutoTrade.py] [970] > 行情 441.40023--理论买入441.20061
+[ INFO] [2025-04-11 13:12:38,925] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:38,925] [AutoTrade.py] [970] > 行情 441.40037--理论买入441.20061
+[ INFO] [2025-04-11 13:12:38,975] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:38,975] [AutoTrade.py] [970] > 行情 441.40057--理论买入441.20061
+[ INFO] [2025-04-11 13:12:39,074] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:39,074] [AutoTrade.py] [970] > 行情 441.40056--理论买入441.20061
+[ INFO] [2025-04-11 13:12:39,124] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:39,124] [AutoTrade.py] [970] > 行情 441.40047--理论买入441.20061
+[ INFO] [2025-04-11 13:12:39,173] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:39,173] [AutoTrade.py] [970] > 行情 441.40042--理论买入441.20061
+[ INFO] [2025-04-11 13:12:39,224] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:39,224] [AutoTrade.py] [970] > 行情 441.40037--理论买入441.20061
+[ INFO] [2025-04-11 13:12:39,326] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:39,326] [AutoTrade.py] [970] > 行情 441.40027--理论买入441.20061
+[ INFO] [2025-04-11 13:12:39,506] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:39,506] [AutoTrade.py] [970] > 行情 441.4001--理论买入441.20061
+[ INFO] [2025-04-11 13:12:39,706] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:39,707] [AutoTrade.py] [970] > 行情 441.40014--理论买入441.20061
+[ INFO] [2025-04-11 13:12:39,914] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:39,914] [AutoTrade.py] [970] > 行情 441.40014--理论买入441.20061
+[ INFO] [2025-04-11 13:12:39,975] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:39,975] [AutoTrade.py] [970] > 行情 441.40014--理论买入441.20061
+[ INFO] [2025-04-11 13:12:40,285] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:40,285] [AutoTrade.py] [970] > 行情 441.4001--理论买入441.20061
+[ INFO] [2025-04-11 13:12:40,455] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:40,455] [AutoTrade.py] [970] > 行情 441.4001--理论买入441.20061
+[ INFO] [2025-04-11 13:12:40,523] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:40,523] [AutoTrade.py] [970] > 行情 441.40028--理论买入441.20061
+[ INFO] [2025-04-11 13:12:40,668] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:40,668] [AutoTrade.py] [970] > 行情 441.4001--理论买入441.20061
+[ INFO] [2025-04-11 13:12:40,786] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:40,786] [AutoTrade.py] [970] > 行情 441.40047--理论买入441.20061
+[ INFO] [2025-04-11 13:12:40,986] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:40,986] [AutoTrade.py] [970] > 行情 441.40047--理论买入441.20061
+[ INFO] [2025-04-11 13:12:41,045] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:41,045] [AutoTrade.py] [970] > 行情 441.40047--理论买入441.20061
+[ INFO] [2025-04-11 13:12:41,125] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:41,125] [AutoTrade.py] [970] > 行情 441.40038--理论买入441.20061
+[ INFO] [2025-04-11 13:12:41,224] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:41,224] [AutoTrade.py] [970] > 行情 441.40054--理论买入441.20061
+[ INFO] [2025-04-11 13:12:41,304] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:41,304] [AutoTrade.py] [970] > 行情 441.40054--理论买入441.20061
+[ INFO] [2025-04-11 13:12:41,423] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:41,424] [AutoTrade.py] [970] > 行情 441.40054--理论买入441.20061
+[ INFO] [2025-04-11 13:12:41,607] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:41,607] [AutoTrade.py] [970] > 行情 441.40055--理论买入441.20061
+[ INFO] [2025-04-11 13:12:41,671] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:41,671] [AutoTrade.py] [970] > 行情 441.40055--理论买入441.20061
+[ INFO] [2025-04-11 13:12:41,824] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:41,824] [AutoTrade.py] [970] > 行情 441.40067--理论买入441.20061
+[ INFO] [2025-04-11 13:12:42,010] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:42,010] [AutoTrade.py] [970] > 行情 441.4007--理论买入441.20061
+[ INFO] [2025-04-11 13:12:42,184] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:42,184] [AutoTrade.py] [970] > 行情 441.4008--理论买入441.20061
+[ INFO] [2025-04-11 13:12:42,273] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:42,274] [AutoTrade.py] [970] > 行情 441.40071--理论买入441.20061
+[ INFO] [2025-04-11 13:12:42,324] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:42,324] [AutoTrade.py] [970] > 行情 441.40069--理论买入441.20061
+[ INFO] [2025-04-11 13:12:42,610] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:42,610] [AutoTrade.py] [970] > 行情 441.40071--理论买入441.20061
+[ INFO] [2025-04-11 13:12:42,744] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:42,745] [AutoTrade.py] [970] > 行情 441.40071--理论买入441.20061
+[ INFO] [2025-04-11 13:12:42,916] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:42,916] [AutoTrade.py] [970] > 行情 441.40071--理论买入441.20061
+[ INFO] [2025-04-11 13:12:43,074] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:43,074] [AutoTrade.py] [970] > 行情 441.40074--理论买入441.20061
+[ INFO] [2025-04-11 13:12:43,495] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:43,495] [AutoTrade.py] [970] > 行情 441.40074--理论买入441.20061
+[ INFO] [2025-04-11 13:12:43,574] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:43,574] [AutoTrade.py] [970] > 行情 441.40082--理论买入441.20061
+[ INFO] [2025-04-11 13:12:43,634] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:43,634] [AutoTrade.py] [970] > 行情 441.40082--理论买入441.20061
+[ INFO] [2025-04-11 13:12:43,886] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:43,886] [AutoTrade.py] [970] > 行情 441.40075--理论买入441.20061
+[ INFO] [2025-04-11 13:12:43,985] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:43,985] [AutoTrade.py] [970] > 行情 441.40079--理论买入441.20061
+[ INFO] [2025-04-11 13:12:44,075] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:44,075] [AutoTrade.py] [970] > 行情 441.40073--理论买入441.20061
+[ INFO] [2025-04-11 13:12:44,137] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:44,137] [AutoTrade.py] [970] > 行情 441.40075--理论买入441.20061
+[ INFO] [2025-04-11 13:12:44,213] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:44,214] [AutoTrade.py] [970] > 行情 441.40073--理论买入441.20061
+[ INFO] [2025-04-11 13:12:44,395] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:44,396] [AutoTrade.py] [970] > 行情 441.40071--理论买入441.20061
+[ INFO] [2025-04-11 13:12:44,563] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:44,563] [AutoTrade.py] [970] > 行情 441.40073--理论买入441.20061
+[ INFO] [2025-04-11 13:12:44,624] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:44,624] [AutoTrade.py] [970] > 行情 441.40075--理论买入441.20061
+[ INFO] [2025-04-11 13:12:44,684] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:44,684] [AutoTrade.py] [970] > 行情 441.40069--理论买入441.20061
+[ INFO] [2025-04-11 13:12:44,765] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:44,766] [AutoTrade.py] [970] > 行情 441.40069--理论买入441.20061
+[ INFO] [2025-04-11 13:12:44,877] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:44,877] [AutoTrade.py] [970] > 行情 441.40069--理论买入441.20061
+[ INFO] [2025-04-11 13:12:44,922] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:44,922] [AutoTrade.py] [970] > 行情 441.40069--理论买入441.20061
+[ INFO] [2025-04-11 13:12:45,034] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:45,034] [AutoTrade.py] [970] > 行情 441.40064--理论买入441.20061
+[ INFO] [2025-04-11 13:12:45,164] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:45,164] [AutoTrade.py] [970] > 行情 441.40053--理论买入441.20061
+[ INFO] [2025-04-11 13:12:45,264] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:45,264] [AutoTrade.py] [970] > 行情 441.40042--理论买入441.20061
+[ INFO] [2025-04-11 13:12:45,365] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:45,366] [AutoTrade.py] [970] > 行情 441.40048--理论买入441.20061
+[ INFO] [2025-04-11 13:12:45,435] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:45,435] [AutoTrade.py] [970] > 行情 441.40037--理论买入441.20061
+[ INFO] [2025-04-11 13:12:45,565] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:45,565] [AutoTrade.py] [970] > 行情 441.40052--理论买入441.20061
+[ INFO] [2025-04-11 13:12:45,686] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:45,686] [AutoTrade.py] [970] > 行情 441.4007--理论买入441.20061
+[ INFO] [2025-04-11 13:12:45,865] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:45,865] [AutoTrade.py] [970] > 行情 441.4007--理论买入441.20061
+[ INFO] [2025-04-11 13:12:45,924] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:45,925] [AutoTrade.py] [970] > 行情 441.4007--理论买入441.20061
+[ INFO] [2025-04-11 13:12:45,974] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:45,974] [AutoTrade.py] [970] > 行情 441.40071--理论买入441.20061
+[ INFO] [2025-04-11 13:12:46,034] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:46,034] [AutoTrade.py] [970] > 行情 441.40071--理论买入441.20061
+[ INFO] [2025-04-11 13:12:46,155] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:46,155] [AutoTrade.py] [970] > 行情 441.40082--理论买入441.20061
+[ INFO] [2025-04-11 13:12:46,287] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:46,287] [AutoTrade.py] [970] > 行情 441.40077--理论买入441.20061
+[ INFO] [2025-04-11 13:12:46,486] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:46,486] [AutoTrade.py] [970] > 行情 441.40074--理论买入441.20061
+[ INFO] [2025-04-11 13:12:46,566] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:46,566] [AutoTrade.py] [970] > 行情 441.40074--理论买入441.20061
+[ INFO] [2025-04-11 13:12:46,684] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:46,685] [AutoTrade.py] [970] > 行情 441.40074--理论买入441.20061
+[ INFO] [2025-04-11 13:12:46,755] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:46,756] [AutoTrade.py] [970] > 行情 441.40071--理论买入441.20061
+[ INFO] [2025-04-11 13:12:46,824] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:46,824] [AutoTrade.py] [970] > 行情 441.40071--理论买入441.20061
+[ INFO] [2025-04-11 13:12:46,985] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:46,985] [AutoTrade.py] [970] > 行情 441.4007--理论买入441.20061
+[ INFO] [2025-04-11 13:12:47,184] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:47,184] [AutoTrade.py] [970] > 行情 441.4007--理论买入441.20061
+[ INFO] [2025-04-11 13:12:47,235] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:47,235] [AutoTrade.py] [970] > 行情 441.40072--理论买入441.20061
+[ INFO] [2025-04-11 13:12:47,283] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:47,283] [AutoTrade.py] [970] > 行情 441.40072--理论买入441.20061
+[ INFO] [2025-04-11 13:12:47,327] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:47,327] [AutoTrade.py] [970] > 行情 441.4007--理论买入441.20061
+[ INFO] [2025-04-11 13:12:47,413] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:47,413] [AutoTrade.py] [970] > 行情 441.4007--理论买入441.20061
+[ INFO] [2025-04-11 13:12:47,474] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:47,475] [AutoTrade.py] [970] > 行情 441.4007--理论买入441.20061
+[ INFO] [2025-04-11 13:12:47,597] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:47,597] [AutoTrade.py] [970] > 行情 441.40076--理论买入441.20061
+[ INFO] [2025-04-11 13:12:47,623] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:47,624] [AutoTrade.py] [970] > 行情 441.40076--理论买入441.20061
+[ INFO] [2025-04-11 13:12:47,946] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:47,947] [AutoTrade.py] [970] > 行情 441.40075--理论买入441.20061
+[ INFO] [2025-04-11 13:12:48,024] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:48,024] [AutoTrade.py] [970] > 行情 441.40068--理论买入441.20061
+[ INFO] [2025-04-11 13:12:48,113] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:48,113] [AutoTrade.py] [970] > 行情 441.40068--理论买入441.20061
+[ INFO] [2025-04-11 13:12:48,208] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:48,208] [AutoTrade.py] [970] > 行情 441.40068--理论买入441.20061
+[ INFO] [2025-04-11 13:12:48,280] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:48,280] [AutoTrade.py] [970] > 行情 441.40068--理论买入441.20061
+[ INFO] [2025-04-11 13:12:48,386] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:48,386] [AutoTrade.py] [970] > 行情 441.40068--理论买入441.20061
+[ INFO] [2025-04-11 13:12:48,424] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:48,424] [AutoTrade.py] [970] > 行情 441.40068--理论买入441.20061
+[ INFO] [2025-04-11 13:12:48,475] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:48,475] [AutoTrade.py] [970] > 行情 441.40068--理论买入441.20061
+[ INFO] [2025-04-11 13:12:48,524] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:48,524] [AutoTrade.py] [970] > 行情 441.40068--理论买入441.20061
+[ INFO] [2025-04-11 13:12:48,704] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:48,704] [AutoTrade.py] [970] > 行情 441.40068--理论买入441.20061
+[ INFO] [2025-04-11 13:12:48,775] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:48,775] [AutoTrade.py] [970] > 行情 441.40064--理论买入441.20061
+[ INFO] [2025-04-11 13:12:48,823] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:48,823] [AutoTrade.py] [970] > 行情 441.40013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:48,925] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:48,925] [AutoTrade.py] [970] > 行情 441.40013--理论买入441.20061
+[ INFO] [2025-04-11 13:12:49,054] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:49,054] [AutoTrade.py] [970] > 行情 441.40012--理论买入441.20061
+[ INFO] [2025-04-11 13:12:49,124] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:49,124] [AutoTrade.py] [970] > 行情 441.40033--理论买入441.20061
+[ INFO] [2025-04-11 13:12:49,175] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:49,175] [AutoTrade.py] [970] > 行情 441.40038--理论买入441.20061
+[ INFO] [2025-04-11 13:12:49,224] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:49,225] [AutoTrade.py] [970] > 行情 441.40018--理论买入441.20061
+[ INFO] [2025-04-11 13:12:49,295] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:49,295] [AutoTrade.py] [970] > 行情 441.40018--理论买入441.20061
+[ INFO] [2025-04-11 13:12:49,564] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:49,564] [AutoTrade.py] [970] > 行情 441.40024--理论买入441.20061
+[ INFO] [2025-04-11 13:12:49,616] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:49,616] [AutoTrade.py] [970] > 行情 441.40024--理论买入441.20061
+[ INFO] [2025-04-11 13:12:49,844] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:49,844] [AutoTrade.py] [970] > 行情 441.40036--理论买入441.20061
+[ INFO] [2025-04-11 13:12:50,116] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:50,116] [AutoTrade.py] [970] > 行情 441.40031--理论买入441.20061
+[ INFO] [2025-04-11 13:12:50,289] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:50,290] [AutoTrade.py] [970] > 行情 441.40017--理论买入441.20061
+[ INFO] [2025-04-11 13:12:50,338] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:50,339] [AutoTrade.py] [970] > 行情 441.40017--理论买入441.20061
+[ INFO] [2025-04-11 13:12:50,508] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:50,508] [AutoTrade.py] [970] > 行情 441.40024--理论买入441.20061
+[ INFO] [2025-04-11 13:12:50,636] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:50,636] [AutoTrade.py] [970] > 行情 441.40017--理论买入441.20061
+[ INFO] [2025-04-11 13:12:50,703] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:50,703] [AutoTrade.py] [970] > 行情 441.40019--理论买入441.20061
+[ INFO] [2025-04-11 13:12:50,724] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:50,724] [AutoTrade.py] [970] > 行情 441.4003--理论买入441.20061
+[ INFO] [2025-04-11 13:12:50,877] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:50,877] [AutoTrade.py] [970] > 行情 441.40032--理论买入441.20061
+[ INFO] [2025-04-11 13:12:50,924] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:50,924] [AutoTrade.py] [970] > 行情 441.40031--理论买入441.20061
+[ INFO] [2025-04-11 13:12:50,974] [AutoTrade.py] [969] > sun2.61--num2--numnum0.00061--THEORETICAL_PRICE0.054
+[ INFO] [2025-04-11 13:12:50,974] [AutoTrade.py] [970] > 行情 441.40041--理论买入441.20061
+[ INFO] [2025-04-11 13:12:50,985] [AutoTrade.py] [181] > Failed to cancel all subscriptions！订阅时间过短，至少需要订阅1分钟 00700 Basic
+[ INFO] [2025-04-11 13:12:50,986] [AutoTrade.py] [1105] > 错误执行初始化代码
+[ INFO] [2025-04-11 13:12:50,986] [AutoTrade.py] [1106] > 'OpenSecTradeContext' object has no attribute 'unsubscribe_all'
+[ INFO] [2025-04-11 13:12:50,986] [AutoTrade.py] [1113] > 错误执行初始化代码FINALLY，行情代码和交易代码重置为HK.00000

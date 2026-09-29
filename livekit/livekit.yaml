@@ -1,0 +1,8 @@
+port: 7880
+keys:
+  devkey: secret  # 你的 API KEY 和 SECRET，之后中控脚本要用
+rtc:
+  use_external_ip: true # 因为你有公网IP，这个必须为真
+  port_range:
+    start: 50000
+    end: 50050

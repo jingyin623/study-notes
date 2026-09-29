@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>504</width>
+    <height>667</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>1</x>
+     <y>0</y>
+     <width>239</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Monitor</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>GetPonit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="text">
+       <string>AutoTrade</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>show_MonitorTickerHandler_Pane()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>42</x>
+     <y>23</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>0</x>
+     <y>96</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>show_GetsJumpPoint_Pane()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>124</x>
+     <y>23</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>0</x>
+     <y>140</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>show_AutoTrade_Pane()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>185</x>
+     <y>18</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>394</x>
+     <y>13</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>show_MonitorTickerHandler_Pane()</slot>
+  <slot>show_GetsJumpPoint_Pane()</slot>
+  <slot>show_AutoTrade_Pane()</slot>
+ </slots>
+</ui>

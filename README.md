@@ -6,11 +6,11 @@ uv python install 3.9
 uv python list
 # 初始化安装
 cd D:\Programs\German_IT_Project\fastAPI
-uv init 
+uv init --python 3.12 
 # 虚拟化
 uv venv
 # 退出虚拟环境
-deactivate
+deactivate1
 # 安装依赖包
 uv add fastapi
 # 从项目中移除一个依赖项。

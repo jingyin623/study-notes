@@ -1,0 +1,20 @@
+from faster_whisper import WhisperModel
+
+# 1050ti 建议配置：
+# 1. 模型选 "base", "small" 或 "medium"。不要直接上 "large-v3"。
+# 2. compute_type 设为 "int8_float16" 或 "float16" 以节省显存。
+model_size = "medium" 
+
+# 初始化模型
+# device="cuda" 表示强制使用显卡
+model = WhisperModel(model_size, device="cuda", compute_type="float16")
+
+print(f"正在加载模型 {model_size}...")
+
+# 开始转写（替换为你实际的音频路径）
+segments, info = model.transcribe("your_audio.mp3", beam_size=5)
+
+print(f"检测到语言: {info.language} (概率: {info.language_probability})")
+
+for segment in segments:
+    print(f"[{segment.start:.2f}s -> {segment.end:.2f}s] {segment.text}")

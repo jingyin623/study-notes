@@ -1,0 +1,65 @@
+[DEBUG] [2025-04-25 11:39:37,388] [AutoFlowTrade.py] [482] > 买入段-BUY单 -撤单|价格:0.041-低位多余订单-溢价---微调点位--
+[ INFO] [2025-04-25 11:39:37,674] [AutoFlowTrade.py] [975] > 【CANCELLED】|HK.13331|0.04 |0    |128.5     |【129.3  |0.65|0.8 】|0.0|FH1A959D96|BUY
+[ERROR] [2025-04-25 11:39:38,001] [AutoFlowTrade.py] [420] > 开仓成功：data       code  stock_name trd_side  ... trail_value trail_spread currency
+0  HK.13331  美团摩通五九购D.C      BUY  ...         N/A          N/A      HKD
+
+[1 rows x 21 columns]|codeHK.13331|price0.041|order_size450000|trd_sideBUY
+[DEBUG] [2025-04-25 11:39:38,001] [AutoFlowTrade.py] [443] > 买入段-BUY单 -买入|价格0.041-仓位450000 没有订单-溢价---微调点位---订单号FH1A959EA0EDFF2000
+[ INFO] [2025-04-25 11:39:38,193] [AutoFlowTrade.py] [975] > 【SUBMITTED】|HK.13331|0.041|0    |129.0     |【129.3  |0.61|0.3 】|0.0|FH1A959EA0|BUY
+[ERROR] [2025-04-25 11:40:54,359] [AutoFlowTrade.py] [420] > 开仓成功：data       code  stock_name trd_side  ... trail_value trail_spread currency
+0  HK.13331  美团摩通五九购D.C      BUY  ...         N/A          N/A      HKD
+
+[1 rows x 21 columns]|codeHK.13331|price0.04|order_size450000|trd_sideBUY
+[DEBUG] [2025-04-25 11:40:54,359] [AutoFlowTrade.py] [443] > 撤退段-BUY单 -当前|目标价格0.041-->0.04-有订单 目标没有订单且大于0.010-溢价---微调点位---订单号FH1A959EEB81DB6000
+[DEBUG] [2025-04-25 11:40:54,390] [AutoFlowTrade.py] [482] > 撤退段-当前有订单-BUY单 -撤单|价格0.041-溢价---微调点位--
+[ INFO] [2025-04-25 11:40:54,539] [AutoFlowTrade.py] [975] > 【SUBMITTED】|HK.13331|0.04 |0    |128.5     |【129.1  |0.44|0.6 】|0.0|FH1A959EEB|BUY
+[ INFO] [2025-04-25 11:40:54,655] [AutoFlowTrade.py] [975] > 【CANCELLED】|HK.13331|0.041|0    |129.0     |【129.1  |0.43|0.1 】|0.0|FH1A959EA0|BUY
+[DEBUG] [2025-04-25 11:44:51,269] [AutoFlowTrade.py] [1066] > 重置代码:HK.13331价格：0
+[ERROR] [2025-04-25 11:44:51,276] [AutoFlowTrade.py] [398] > 获取最大可买可卖失败：data价格不能为负数或 0|codeHK.13331|price0
+[DEBUG] [2025-04-25 11:44:51,277] [AutoFlowTrade.py] [119] > 初始化记录值字典默认[-1, -1, -1, -1, -1, '-1', '-1']（0-0.250）
+[ INFO] [2025-04-25 11:44:51,277] [AutoFlowTrade.py] [1074] > 错误执行初始化代码
+[ INFO] [2025-04-25 11:44:51,277] [AutoFlowTrade.py] [1075] > 'bool' object is not subscriptable
+[DEBUG] [2025-04-25 11:44:51,277] [AutoFlowTrade.py] [119] > 初始化记录值字典默认[-1, -1, -1, -1, -1, '-1', '-1']（0-0.250）
+[ INFO] [2025-04-25 11:44:51,278] [AutoFlowTrade.py] [1082] > 错误执行初始化代码FINALLY，行情代码和交易代码重置为HK.00000
+[ INFO] [2025-04-25 11:45:27,222] [AutoFlowTrade.py] [1143] > ************    初始化    ***********
+[ INFO] [2025-04-25 11:45:27,323] [AutoFlowTrade.py] [500] > 解锁交易成功！
+[ INFO] [2025-04-25 11:45:27,426] [AutoFlowTrade.py] [107] > 正股代码：HK.03690--参考行情代码HK.03690
+[ INFO] [2025-04-25 11:45:27,427] [AutoFlowTrade.py] [108] > 涡轮代码：HK.15399 | 涡轮方向：CALL | 目标经纪号：9742 | 换股比例：100.0 | 现金购买力：37187.16 | 一手的股数：10000
+[ INFO] [2025-04-25 11:45:27,427] [AutoFlowTrade.py] [110] > 理论波动率 ： 默认等于理论灵敏度-->4.761904761904762
+[ INFO] [2025-04-25 11:45:27,427] [AutoFlowTrade.py] [111] > 买入开始：0.5 | 卖出开始：0.3 | 挂单量：1 | 仓位：[1, 0, 0]  | 是否跟随撤单(0跟随其他不跟随)：1 
+[DEBUG] [2025-04-25 11:45:27,427] [AutoFlowTrade.py] [119] > 初始化记录值字典默认[-1, -1, -1, -1, -1, '-1', '-1']（0-0.250）
+[ INFO] [2025-04-25 11:45:27,435] [AutoFlowTrade.py] [1159] > 订阅成功，开始交易
+[ INFO] [2025-04-25 11:45:27,435] [AutoFlowTrade.py] [1160] > ************  策略开始运行 ***********
+[ INFO] [2025-04-25 11:46:06,129] [AutoFlowTrade.py] [1121] > ************    修改交易数据    ***********
+[ INFO] [2025-04-25 11:46:06,221] [AutoFlowTrade.py] [107] > 正股代码：HK.03690--参考行情代码HK.03690
+[ INFO] [2025-04-25 11:46:06,221] [AutoFlowTrade.py] [108] > 涡轮代码：HK.15399 | 涡轮方向：CALL | 目标经纪号：9742 | 换股比例：100.0 | 现金购买力：37187.16 | 一手的股数：10000
+[ INFO] [2025-04-25 11:46:06,221] [AutoFlowTrade.py] [110] > 理论波动率 ： 默认等于理论灵敏度-->4.761904761904762
+[ INFO] [2025-04-25 11:46:06,221] [AutoFlowTrade.py] [111] > 买入开始：0.5 | 卖出开始：0.3 | 挂单量：3 | 仓位：[1, 0, 0]  | 是否跟随撤单(0跟随其他不跟随)：1 
+[ INFO] [2025-04-25 11:46:06,225] [AutoFlowTrade.py] [1127] > 重新订阅成功，开始交易
+[ INFO] [2025-04-25 11:46:06,225] [AutoFlowTrade.py] [1128] > ************    修改交易数据完成    ***********
+[DEBUG] [2025-04-25 11:47:04,916] [AutoFlowTrade.py] [1065] > 重置代码:HK.15399价格：0.045
+[ INFO] [2025-04-25 11:47:05,099] [AutoFlowTrade.py] [223] > 没有持仓 : 
+[ INFO] [2025-04-25 11:47:05,105] [AutoFlowTrade.py] [178] > unsubscribe all successfully！current subscription status:(0, {'total_used': 14, 'remain': 286, 'own_used': 0, 'sub_list': {'ORDER_BOOK': ['HK.00700', 'HK.29684', 'HK.03690', 'HK.13331', 'HK.13374', 'HK.02318', 'HK.28117'], 'BROKER': ['HK.00700', 'HK.29684', 'HK.03690', 'HK.13331', 'HK.13374', 'HK.02318', 'HK.28117']}})
+[DEBUG] [2025-04-25 11:47:05,106] [AutoFlowTrade.py] [119] > 初始化记录值字典默认[-1, -1, -1, -1, -1, '-1', '-1']（0-0.250）
+[ INFO] [2025-04-25 11:47:05,106] [AutoFlowTrade.py] [1073] > 错误执行初始化代码
+[ INFO] [2025-04-25 11:47:05,107] [AutoFlowTrade.py] [1074] > 'OpenSecTradeContext' object has no attribute 'unsubscribe_all'
+[DEBUG] [2025-04-25 11:47:05,107] [AutoFlowTrade.py] [119] > 初始化记录值字典默认[-1, -1, -1, -1, -1, '-1', '-1']（0-0.250）
+[ INFO] [2025-04-25 11:47:05,107] [AutoFlowTrade.py] [1081] > 错误执行初始化代码FINALLY，行情代码和交易代码重置为HK.00000
+[ INFO] [2025-04-25 11:47:36,274] [AutoFlowTrade.py] [1143] > ************    初始化    ***********
+[ INFO] [2025-04-25 11:47:36,373] [AutoFlowTrade.py] [500] > 解锁交易成功！
+[ INFO] [2025-04-25 11:47:36,470] [AutoFlowTrade.py] [107] > 正股代码：HK.03690--参考行情代码HK.03690
+[ INFO] [2025-04-25 11:47:36,470] [AutoFlowTrade.py] [108] > 涡轮代码：HK.13331 | 涡轮方向：CALL | 目标经纪号：9711 | 换股比例：100.0 | 现金购买力：37187.16 | 一手的股数：10000
+[ INFO] [2025-04-25 11:47:36,470] [AutoFlowTrade.py] [110] > 理论波动率 ： 默认等于理论灵敏度-->5.2631578947368425
+[ INFO] [2025-04-25 11:47:36,470] [AutoFlowTrade.py] [111] > 买入开始：0.5 | 卖出开始：0.3 | 挂单量：31 | 仓位：[1, 0, 0]  | 是否跟随撤单(0跟随其他不跟随)：1 
+[DEBUG] [2025-04-25 11:47:36,470] [AutoFlowTrade.py] [119] > 初始化记录值字典默认[-1, -1, -1, -1, -1, '-1', '-1']（0-0.250）
+[ INFO] [2025-04-25 11:47:36,479] [AutoFlowTrade.py] [1159] > 订阅成功，开始交易
+[ INFO] [2025-04-25 11:47:36,479] [AutoFlowTrade.py] [1160] > ************  策略开始运行 ***********
+[ INFO] [2025-04-25 11:59:41,418] [AutoFlowTrade.py] [904] > 当前时间[11:59:41]不在交易时间段执行
+[DEBUG] [2025-04-25 11:59:41,418] [AutoFlowTrade.py] [1065] > 重置代码:HK.13331价格：0.041
+[ INFO] [2025-04-25 11:59:41,588] [AutoFlowTrade.py] [223] > 没有持仓 : 
+[ INFO] [2025-04-25 11:59:41,592] [AutoFlowTrade.py] [178] > unsubscribe all successfully！current subscription status:(0, {'total_used': 14, 'remain': 286, 'own_used': 0, 'sub_list': {'ORDER_BOOK': ['HK.00700', 'HK.29684', 'HK.03690', 'HK.13331', 'HK.13374', 'HK.02318', 'HK.28117'], 'BROKER': ['HK.00700', 'HK.29684', 'HK.03690', 'HK.13331', 'HK.13374', 'HK.02318', 'HK.28117']}})
+[DEBUG] [2025-04-25 11:59:41,592] [AutoFlowTrade.py] [119] > 初始化记录值字典默认[-1, -1, -1, -1, -1, '-1', '-1']（0-0.250）
+[ INFO] [2025-04-25 11:59:41,593] [AutoFlowTrade.py] [1073] > 错误执行初始化代码
+[ INFO] [2025-04-25 11:59:41,593] [AutoFlowTrade.py] [1074] > 'OpenSecTradeContext' object has no attribute 'unsubscribe_all'
+[DEBUG] [2025-04-25 11:59:41,593] [AutoFlowTrade.py] [119] > 初始化记录值字典默认[-1, -1, -1, -1, -1, '-1', '-1']（0-0.250）
+[ INFO] [2025-04-25 11:59:41,593] [AutoFlowTrade.py] [1081] > 错误执行初始化代码FINALLY，行情代码和交易代码重置为HK.00000

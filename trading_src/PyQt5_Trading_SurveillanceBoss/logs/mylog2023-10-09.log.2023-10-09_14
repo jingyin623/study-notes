@@ -1,0 +1,11 @@
+[ INFO] [2023-10-09 15:15:54,759] [SurveillanceBoss.py] [ 37] > ['HK.19408', 990000, 'SELL']
+[ INFO] [2023-10-09 15:16:09,615] [SurveillanceBoss.py] [ 97] > subscribe successfully！current subscription status :(0, {'total_used': 11, 'remain': 289, 'own_used': 6, 'sub_list': {'QUOTE': ['HK.800000'], 'ORDER_BOOK': ['HK.HSImain', 'HK.55200'], 'BROKER': ['HK.HSImain', 'HK.55200'], 'TICKER': ['HK.15450', 'HK.17581', 'HK.19408', 'HK.19702', 'HK.20018', 'HK.20025']}})
+[ INFO] [2023-10-09 15:16:09,615] [SurveillanceBoss.py] [ 59] > 字典中没有相关代码,增加相关数据:['HK.20018', 990000.0, 'BUY']
+[ INFO] [2023-10-09 15:16:09,618] [SurveillanceBoss.py] [ 63] > 字典有相关代码,但是没有相关数据增加数据:['HK.20018', 990000.0, 'SELL']
+[ INFO] [2023-10-09 15:16:23,422] [SurveillanceBoss.py] [ 37] > ['HK.19408', 990000, 'BUY']
+[ INFO] [2023-10-09 15:23:37,299] [SurveillanceBoss.py] [ 37] > ['HK.20018', 990000, 'BUY']
+[ INFO] [2023-10-09 15:31:32,939] [SurveillanceBoss.py] [ 37] > ['HK.20018', 990000, 'SELL']
+[ INFO] [2023-10-09 15:44:27,254] [SurveillanceBoss.py] [ 37] > ['HK.19702', 990000, 'BUY']
+[ INFO] [2023-10-09 15:50:51,846] [SurveillanceBoss.py] [ 37] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 15:54:41,704] [SurveillanceBoss.py] [ 37] > ['HK.19702', 990000, 'SELL']
+[ INFO] [2023-10-09 16:03:10,479] [SurveillanceBoss.py] [165] > unsubscribe all successfully！current subscription status:(0, {'total_used': 5, 'remain': 295, 'own_used': 0, 'sub_list': {'QUOTE': ['HK.800000'], 'ORDER_BOOK': ['HK.HSImain', 'HK.55200'], 'BROKER': ['HK.HSImain', 'HK.55200']}})

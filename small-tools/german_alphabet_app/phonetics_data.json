@@ -1,0 +1,336 @@
+{
+  "window_size": [
+    1339,
+    694
+  ],
+  "card_size": [
+    100,
+    80
+  ],
+  "phonetics": [
+    [
+      "A, a",
+      "Ananas",
+      "audio/元音/A, a_Ananas.mp3",
+      "元音"
+    ],
+    [
+      "Au, au",
+      "Auge",
+      "audio/元音/Au, au_Auge.mp3",
+      "元音"
+    ],
+    [
+      "B, b",
+      "Banane",
+      "audio/元音/B, b_Banane.mp3",
+      "元音"
+    ],
+    [
+      "C, c",
+      "Computer",
+      "audio/元音/C, c_Computer.mp3",
+      "元音"
+    ],
+    [
+      "Ch, ch",
+      "Milch",
+      "audio/元音/Ch, ch_Milch.mp3",
+      "元音"
+    ],
+    [
+      "ck",
+      "Rucksack",
+      "audio/元音/ck_Rucksack.mp3",
+      "元音"
+    ],
+    [
+      "D, d",
+      "Dose",
+      "audio/元音/D, d_Dose.mp3",
+      "元音"
+    ],
+    [
+      "E, e",
+      "Esel",
+      "audio/元音/E, e_Esel.mp3",
+      "元音"
+    ],
+    [
+      "Ei, ei",
+      "Eis",
+      "audio/元音/Ei, ei_Eis.mp3",
+      "元音"
+    ],
+    [
+      "Eu, eu",
+      "Euro",
+      "audio/元音/Eu, eu_Euro.mp3",
+      "元音"
+    ],
+    [
+      "F, f",
+      "Fisch",
+      "audio/元音/F, f_Fisch.mp3",
+      "元音"
+    ],
+    [
+      "G, g",
+      "Geld",
+      "audio/元音/G, g_Geld.mp3",
+      "元音"
+    ],
+    [
+      "H, h",
+      "Hose",
+      "audio/元音/H, h_Hose.mp3",
+      "元音"
+    ],
+    [
+      "I, i",
+      "Information",
+      "audio/元音/I, i_Information.mp3",
+      "元音"
+    ],
+    [
+      "ie",
+      "Knie",
+      "audio/元音/ie_Knie.mp3",
+      "元音"
+    ],
+    [
+      "J, j",
+      "Jacke",
+      "audio/元音/J, j_Jacke.mp3",
+      "元音"
+    ],
+    [
+      "K, k",
+      "Koffer",
+      "audio/元音/K, k_Koffer.mp3",
+      "元音"
+    ],
+    [
+      "L, l",
+      "Lampe",
+      "audio/元音/L, l_Lampe.mp3",
+      "元音"
+    ],
+    [
+      "M, m",
+      "Messer",
+      "audio/元音/M, m_Messer.mp3",
+      "元音"
+    ],
+    [
+      "N, n",
+      "Nase",
+      "audio/元音/N, n_Nase.mp3",
+      "元音"
+    ],
+    [
+      "O, o",
+      "Olive",
+      "audio/元音/O, o_Olive.mp3",
+      "元音"
+    ],
+    [
+      "P, p",
+      "Pizza",
+      "audio/元音/P, p_Pizza.mp3",
+      "元音"
+    ],
+    [
+      "Pf, pf",
+      "Pfanne",
+      "audio/元音/Pf, pf_Pfanne.mp3",
+      "元音"
+    ],
+    [
+      "Qu, qu",
+      "Quadrat",
+      "audio/元音/Qu, qu_Quadrat.mp3",
+      "元音"
+    ],
+    [
+      "R, r",
+      "Rose",
+      "audio/元音/R, r_Rose.mp3",
+      "元音"
+    ],
+    [
+      "S, s",
+      "Salat",
+      "audio/元音/S, s_Salat.mp3",
+      "元音"
+    ],
+    [
+      "Sch, sch",
+      "Schokolade",
+      "audio/元音/Sch, sch_Schokolade.mp3",
+      "元音"
+    ],
+    [
+      "Sp, sp",
+      "Spiegel",
+      "audio/元音/Sp, sp_Spiegel.mp3",
+      "元音"
+    ],
+    [
+      "St, st",
+      "Stuhl",
+      "audio/元音/St, st_Stuhl.mp3",
+      "元音"
+    ],
+    [
+      "T, t",
+      "Tomate",
+      "audio/元音/T, t_Tomate.mp3",
+      "元音"
+    ],
+    [
+      "U, u",
+      "Uhr",
+      "audio/元音/U, u_Uhr.mp3",
+      "元音"
+    ],
+    [
+      "V, v",
+      "Vogel",
+      "audio/元音/V, v_Vogel.mp3",
+      "元音"
+    ],
+    [
+      "W, w",
+      "Wolle",
+      "audio/元音/W, w_Wolle.mp3",
+      "元音"
+    ],
+    [
+      "X, x",
+      "Xylophon, auch_ Xylofon",
+      "audio/元音/X, x_Xylophon, auch_ Xylofon.mp3",
+      "元音"
+    ],
+    [
+      "Y, y",
+      "Handy",
+      "audio/元音/Y, y_Handy.mp3",
+      "元音"
+    ],
+    [
+      "Y, y",
+      "Yoga",
+      "audio/元音/Y, y_Yoga.mp3",
+      "元音"
+    ],
+    [
+      "Z, z",
+      "Zitrone",
+      "audio/元音/Z, z_Zitrone.mp3",
+      "元音"
+    ],
+    [
+      "Ä, ä",
+      "Äpfel",
+      "audio/元音/Ä, ä_Äpfel.mp3",
+      "元音"
+    ],
+    [
+      "Ö, ö",
+      "Öl",
+      "audio/元音/Ö, ö_Öl.mp3",
+      "元音"
+    ],
+    [
+      "Ü, ü",
+      "Überraschung",
+      "audio/元音/Ü, ü_Überraschung.mp3",
+      "元音"
+    ],
+    [
+      "ß, ß",
+      "Fuß",
+      "audio/元音/ß, ß_Fuß.mp3",
+      "元音"
+    ],
+    [
+      "0",
+      "null",
+      "audio/数字/0_null.mp3",
+      "数字"
+    ],
+    [
+      "10",
+      "zehn",
+      "audio/数字/10_zehn.mp3",
+      "数字"
+    ],
+    [
+      "11",
+      "elf",
+      "audio/数字/11_elf.mp3",
+      "数字"
+    ],
+    [
+      "12",
+      "zwoelf",
+      "audio/数字/12_zwoelf.mp3",
+      "数字"
+    ],
+    [
+      "1",
+      "eins",
+      "audio/数字/1_eins.mp3",
+      "数字"
+    ],
+    [
+      "2",
+      "zwei",
+      "audio/数字/2_zwei.mp3",
+      "数字"
+    ],
+    [
+      "3",
+      "drei",
+      "audio/数字/3_drei.mp3",
+      "数字"
+    ],
+    [
+      "4",
+      "vier",
+      "audio/数字/4_vier.mp3",
+      "数字"
+    ],
+    [
+      "5",
+      "fuenf",
+      "audio/数字/5_fuenf.mp3",
+      "数字"
+    ],
+    [
+      "6",
+      "sechs",
+      "audio/数字/6_sechs.mp3",
+      "数字"
+    ],
+    [
+      "7",
+      "sieben",
+      "audio/数字/7_sieben.mp3",
+      "数字"
+    ],
+    [
+      "8",
+      "acht",
+      "audio/数字/8_acht.mp3",
+      "数字"
+    ],
+    [
+      "9",
+      "neun",
+      "audio/数字/9_neun.mp3",
+      "数字"
+    ]
+  ]
+}

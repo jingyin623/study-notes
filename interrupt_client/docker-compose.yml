@@ -1,0 +1,17 @@
+services:
+  livekit:
+    image: livekit/livekit-server:latest
+    container_name: livekit-server
+    restart: always
+    command: 
+      - "--config"
+      - "/etc/livekit.yaml"
+      - "--dev"
+      - "--keys"
+      - "devkey: secret"
+    ports:
+      - "7880:7880"
+      - "7881:7881"
+      - "50000-50050:50000-50050/udp"
+    volumes:
+      - ./livekit.yaml:/etc/livekit.yaml

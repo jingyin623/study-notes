@@ -1,0 +1,17 @@
+[project]
+name = "study-notes"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bs4>=0.0.2",
+    "futu-api>=10.11.7108",
+    "plyer>=2.1.0",
+    "pygame>=2.6.1",
+    "pyinstaller>=6.22.2",
+    "pyside6>=6.11.2",
+    "pytest>=9.1.1",
+    "pyttsx3>=2.99",
+    "requests>=2.34.2",
+]
