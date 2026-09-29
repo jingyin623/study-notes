@@ -7,8 +7,8 @@ from playwright.async_api import async_playwright
 SAVE_DIR = r"C:\Users\MR.jiang\Desktop\DWON" 
 
 # 1. 页面配置
-PAGE_START = 5      # 从第几页开始
-PAGE_END = 10       # 到第几页结束 (含)
+PAGE_START = 28      # 从第几页开始
+PAGE_END = 34       # 到第几页结束 (含)
 
 # 2. 按钮配置
 BUTTON_START = 1    # 每页从第几个按钮开始
@@ -18,7 +18,7 @@ BUTTON_END = 100    # 每页点到第几个按钮结束
 LOGIN_URL = "https://kp.m-team.cc/login"
 # 3. 模板配置 (关键：使用 {i} 作为占位符)
 # 如果你想换搜索条件，直接改这里的 URL 即可
-URL_TEMPLATE = "https://kp.m-team.cc/browse?pageNumber={i}&sort=size%3Aascend&team=44&team=9&team=43"
+URL_TEMPLATE = "https://kp.m-team.cc/browse?pageNumber={i}&sort=size%3Aascend"
 # 如果网站改版，直接改这里的 XPath 即可
 XPATH_TEMPLATE = '//*[@id="app-content"]/div/div[4]/div[1]/div/div/div/div/table/tbody/tr[{i}]/td[7]/button[2]'
 # ----------------
@@ -81,7 +81,7 @@ async def run():
                             continue
                         
                         # 随机休息，保护账号
-                        wait_time = random.uniform(10, 20)
+                        wait_time = random.uniform(15, 25)
                         print(f"☕ 休息 {wait_time:.1f} 秒...")
                         await asyncio.sleep(wait_time) 
                         
